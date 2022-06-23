@@ -1,0 +1,688 @@
+:root {
+  --white: #ffffff;
+  --btn-bg: #2befc8;
+}
+.service_container {
+  background: linear-gradient(
+      170deg,
+      #000000,
+      #000000ab,
+      #0000007e,
+      #0f514a38,
+      #06091ec1,
+      #03040ae2,
+      #010205
+    ),
+    url(../../assets/background/bg.jpg) center no-repeat;
+  background-size: cover;
+  .content_ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .name_ {
+      margin-top: 20px;
+      color: var(--btn-bg);
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    .title_ {
+      text-align: center;
+      font-size: 35px;
+      color: var(--white);
+      margin-top: 10px;
+    }
+    .moon {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      .moon_kub {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        .moon_img {
+          opacity: 0.8;
+          width: 580px;
+        }
+      }
+      .box {
+        position: absolute;
+        display: flex;
+        .text_ {
+          display: flex;
+          flex-direction: column;
+          width: 300px;
+          .titl {
+            color: var(--white);
+            font-size: 17px;
+          }
+          .bady {
+            margin-top: 6px;
+            color: #d1eaee;
+            font-size: 12.5px;
+          }
+        }
+        .end_ {
+          text-align: end;
+        }
+        .start_ {
+          text-align: start;
+        }
+        .k_left{
+          margin: 5px 0 0 20px;
+
+        }
+        .k_right{
+          margin: 5px 20px 0 0;
+        }
+        .kub {
+          width: 80px;
+          height: 80px;
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #181043;
+          .bitcoin {
+            max-width: 60%;
+          }
+        }
+      }
+
+      .box_1 {
+        left: -160px;
+        top: 0;
+      }
+
+      .box_2 {
+        left: -220px;
+        top: 150px;
+      }
+      .box_3 {
+        left: -160px;
+        bottom: 0;
+      }
+      .box_11 {
+        right: -160px;
+        top: 0;
+      }
+
+      .box_22 {
+        right: -220px;
+        top: 150px;
+      }
+      .box_33 {
+        right: -160px;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:1000px){
+  .service_container {
+    background: linear-gradient(
+        170deg,
+        #000000,
+        #000000ab,
+        #0000007e,
+        #0f514a38,
+        #06091ec1,
+        #03040ae2,
+        #010205
+      ),
+      url(../../assets/background/bg.jpg) center no-repeat;
+    background-size: cover;
+    .content_ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .name_ {
+        margin-top: 20px;
+        color: var(--btn-bg);
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .title_ {
+        text-align: center;
+        font-size: 30px;
+        color: var(--white);
+        margin-top: 10px;
+      }
+      .moon {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .moon_kub {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          .moon_img {
+            opacity: 0.8;
+            width: 560px;
+          }
+        }
+        .box {
+          position: absolute;
+          display: flex;
+          .text_ {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            .titl {
+              color: var(--white);
+              font-size: 14px;
+            }
+            .bady {
+              margin-top: 3px;
+              color: #d1eaee;
+              font-size: 11px;
+            }
+          }
+          .end_ {
+            text-align: end;
+          }
+          .start_ {
+            text-align: start;
+          }
+          .k_left{
+            margin: 0px 0 0 15px;
+  
+          }
+          .k_right{
+            margin: 0px 15px 0 0;
+          }
+          .kub {
+            width: 60px;
+            height: 60px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #181043;
+            .bitcoin {
+              max-width: 60%;
+            }
+          }
+        }
+  
+        .box_1 {
+          left: -120px;
+          top: 0;
+        }
+  
+        .box_2 {
+          left: -180px;
+          top: 150px;
+        }
+        .box_3 {
+          left: -120px;
+          bottom: 0;
+        }
+        .box_11 {
+          right: -120px;
+          top: 0;
+        }
+  
+        .box_22 {
+          right: -180px;
+          top: 150px;
+        }
+        .box_33 {
+          right: -120px;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:900px){
+  .service_container {
+    background: linear-gradient(
+        170deg,
+        #000000,
+        #000000ab,
+        #0000007e,
+        #0f514a38,
+        #06091ec1,
+        #03040ae2,
+        #010205
+      ),
+      url(../../assets/background/bg.jpg) center no-repeat;
+    background-size: cover;
+    .content_ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .name_ {
+        margin-top: 20px;
+        color: var(--btn-bg);
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .title_ {
+        text-align: center;
+        font-size: 30px;
+        color: var(--white);
+        margin-top: 10px;
+      }
+      .moon {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        .moon_kub {
+          position: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          .moon_img {
+            opacity: 0.8;
+            width: 560px;
+            display: none;
+          }
+        }
+        .box {
+          width: 48%;
+          position: inherit;
+          display: flex;
+          .text_ {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            .titl {
+              color: var(--white);
+              font-size: 18px;
+            }
+            .bady {
+              margin-top: 3px;
+              color: #d1eaee;
+              font-size: 12px;
+            }
+          }
+          .end_ {
+            text-align: start;
+          }
+          .start_ {
+            text-align: start;
+          }
+          .k_left{
+            margin: 0px 15px 0 0;
+          }
+          .k_right{
+            margin: 0px 15px 0 0;
+          }
+          .kub {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #181043;
+            .bitcoin {
+              max-width: 60%;
+            }
+          }
+        }
+  
+        .box_1 { 
+          flex-direction: row-reverse; 
+        }
+  
+        .box_2 {
+          flex-direction: row-reverse; 
+        }
+        .box_3 {
+          flex-direction: row-reverse; 
+        }
+        .box_11 { 
+        }
+  
+        .box_22 { 
+        }
+        .box_33 { 
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:772px){
+  .service_container {
+    background: linear-gradient(
+        170deg,
+        #000000,
+        #000000ab,
+        #0000007e,
+        #0f514a38,
+        #06091ec1,
+        #03040ae2,
+        #010205
+      ),
+      url(../../assets/background/bg.jpg) center no-repeat;
+    background-size: cover;
+    .content_ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .name_ {
+        margin-top: 20px;
+        color: var(--btn-bg);
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .title_ {
+        text-align: center;
+        font-size: 30px;
+        color: var(--white);
+        margin-top: 10px;
+      }
+      .moon {
+        margin-top: 30px;
+        margin-bottom:inherit;
+        .moon_kub {
+          position: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: space-between; 
+          flex-direction: column;
+          .moon_img {
+            opacity: 0.8;
+            width: 560px;
+            display: none;
+          }
+        }
+        .box {
+          margin-bottom: 30px;
+          width: 100%;
+          position: inherit;
+          display: flex;
+          .text_ {
+            display: flex;
+            flex-direction: column;
+            width: 320px;
+            .titl {
+              color: var(--white);
+              font-size: 18px;
+            }
+            .bady {
+              margin-top: 3px;
+              color: #d1eaee;
+              font-size: 12px;
+            }
+          }
+          .end_ {
+            text-align: start;
+          }
+          .start_ {
+            text-align: start;
+          }
+          .k_left{
+            margin: 0px 15px 0 0;
+          }
+          .k_right{
+            margin: 0px 15px 0 0;
+          }
+          .kub {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #181043;
+            .bitcoin {
+              max-width: 60%;
+            }
+          }
+        }
+  
+        .box_1 { 
+          flex-direction: row-reverse; 
+        }
+  
+        .box_2 {
+          flex-direction: row-reverse; 
+        }
+        .box_3 {
+          flex-direction: row-reverse; 
+        }
+        .box_11 { 
+        }
+  
+        .box_22 { 
+        }
+        .box_33 { 
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:576px){
+  .service_container {
+    background: linear-gradient(
+        170deg,
+        #000000,
+        #000000ab,
+        #0000007e,
+        #0f514a38,
+        #06091ec1,
+        #03040ae2,
+        #010205
+      ),
+      url(../../assets/background/bg.jpg) center no-repeat;
+    background-size: cover;
+    .content_ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .name_ {
+        margin-top: 20px;
+        color: var(--btn-bg);
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .title_ {
+        text-align: center;
+        font-size: 30px;
+        color: var(--white);
+        margin-top: 10px;
+      }
+      .moon {
+        margin-top: 30px;
+        margin-bottom:inherit;
+        .moon_kub {
+          position: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: space-between; 
+          flex-direction: column;
+          .moon_img {
+            opacity: 0.8;
+            width: 560px;
+            display: none;
+          }
+        }
+        .box {
+          margin-bottom: 30px;
+          width: 100%;
+          position: inherit;
+          display: flex;
+          .text_ {
+            display: flex;
+            flex-direction: column;
+            width: 320px;
+            .titl {
+              color: var(--white);
+              font-size: 18px;
+            }
+            .bady {
+              margin-top: 3px;
+              color: #d1eaee;
+              font-size: 12px;
+            }
+          }
+          .end_ {
+            text-align: start;
+          }
+          .start_ {
+            text-align: start;
+          }
+          .k_left{
+            margin: 0px 15px 0 0;
+          }
+          .k_right{
+            margin: 0px 15px 0 0;
+          }
+          .kub {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #181043;
+            .bitcoin {
+              max-width: 60%;
+            }
+          }
+        }
+  
+        .box_1 { 
+          flex-direction: row-reverse; 
+        }
+  
+        .box_2 {
+          flex-direction: row-reverse; 
+        }
+        .box_3 {
+          flex-direction: row-reverse; 
+        }
+        .box_11 { 
+        }
+  
+        .box_22 { 
+        }
+        .box_33 { 
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:450px){
+  .service_container {
+    background: linear-gradient(
+        170deg,
+        #000000,
+        #000000ab,
+        #0000007e,
+        #0f514a38,
+        #06091ec1,
+        #03040ae2,
+        #010205
+      ),
+      url(../../assets/background/bg.jpg) center no-repeat;
+    background-size: cover;
+    .content_ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .name_ {
+        margin-top: 10px;
+        color: var(--btn-bg);
+        text-transform: uppercase;
+        font-size: 13px;
+      }
+      .title_ {
+        text-align: center;
+        font-size: 22px;
+        color: var(--white);
+        margin-top: 10px;
+      }
+      .moon {
+        margin-top: 30px;
+        margin-bottom:inherit;
+        .moon_kub {
+          position: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: space-between; 
+          flex-direction: column;
+          .moon_img {
+            opacity: 0.8;
+            width: 560px;
+            display: none;
+          }
+        }
+        .box {
+          margin-bottom: 30px;
+          width: 100%;
+          position: inherit;
+          display: flex;
+          .text_ {
+            display: flex;
+            flex-direction: column;
+            width: inherit;
+            .titl {
+              color: var(--white);
+              font-size: 16px;
+            }
+            .bady {
+              margin-top: 3px;
+              color: #d1eaee;
+              font-size: 12px;
+            }
+          }
+          .end_ {
+            text-align: start;
+          }
+          .start_ {
+            text-align: start;
+          }
+          .k_left{
+            margin: 0px 15px 0 0;
+          }
+          .k_right{
+            margin: 0px 15px 0 0;
+          }
+          .kub {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #181043;
+            .bitcoin {
+              max-width: 60%;
+            }
+          }
+        }
+  
+        .box_1 { 
+          flex-direction: row-reverse; 
+        }
+  
+        .box_2 {
+          flex-direction: row-reverse; 
+        }
+        .box_3 {
+          flex-direction: row-reverse; 
+        }
+        .box_11 { 
+        }
+  
+        .box_22 { 
+        }
+        .box_33 { 
+        }
+      }
+    }
+  }
+}

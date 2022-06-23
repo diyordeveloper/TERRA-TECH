@@ -1,0 +1,111 @@
+:root {
+  --white: #ffffff;
+  --btn-bg: #2befc8;
+}
+.home_container {
+  background: linear-gradient(175deg, #0000005f, #1146a22c),
+    url(../../assets/background/home_bg.jpg) no-repeat;
+  background-size: cover;
+  .content_ {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    .title_ {
+      font-size: 42px;
+      color: var(--white);
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+    .body_ {
+      font-size: 16px;
+      color: var(--white);
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+@media screen and (max-width:992px){
+  .home_container {
+    background: linear-gradient(175deg, #0000005f, #1146a22c),
+      url(../../assets/background/home_bg.jpg) no-repeat;
+    background-size: cover;
+    .content_ {
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      .title_ {
+        font-size: 35px;
+        color: var(--white);
+        text-transform: capitalize;
+        margin-bottom: 20px;
+      }
+      .body_ {
+        font-size: 16px;
+        color: var(--white);
+        margin-bottom: 30px;
+      }
+    }
+     button{
+      // margin-bottom: 50px;
+     }
+  }
+  
+}
+@media screen and (max-width:576px){
+  .home_container {
+    background: linear-gradient(175deg, #0000005f, #1146a22c),
+      url(../../assets/background/home_bg.jpg) no-repeat;
+    background-size: cover;
+    .content_ {
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      .title_ {
+        font-size: 30px;
+        color: var(--white);
+        text-transform: capitalize;
+        margin-bottom: 20px;
+      }
+      .body_ {
+        font-size: 14px;
+        color: var(--white);
+        margin-bottom: 30px;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width:450px){
+  .home_container {
+    background: linear-gradient(175deg, #0000005f, #1146a22c),
+      url(../../assets/background/home_bg.jpg) no-repeat;
+    background-size: cover;
+    .content_ {
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      .title_ {
+        font-size: 26px;
+        color: var(--white);
+        text-transform: capitalize;
+        margin-bottom: 20px;
+      }
+      .body_ {
+        font-size: 12px;
+        color: var(--white);
+        margin-bottom: 30px;
+      }
+    }
+  }
+  
+}

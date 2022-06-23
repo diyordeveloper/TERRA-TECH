@@ -1,0 +1,476 @@
+:root {
+  --white: #ffffff;
+  --btn-bg: #2befc8;
+}
+.special_container {
+  background: linear-gradient(
+    180deg,
+    #010309,
+    #02040fcf,
+    #00000063,
+    #0c10263f,
+    #0c1026b3,
+    #000102db,
+    #000000
+    ),
+    url(../../assets/background/saturn.jpg), 
+    center no-repeat;
+    background-size:  cover;
+  .content_ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .name_ {
+      margin-top: 20px;
+      color: var(--btn-bg);
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    .title_ {
+      text-align: center;
+      font-size: 42px;
+      color: var(--white);
+      margin-top: 10px;
+    }
+    .contain_ {
+        width: 100%; 
+      margin-bottom: 30px;
+      display: flex; 
+      justify-content: end;
+      .block_{
+          width: 48%; 
+      }
+       
+      .text_blok{
+        .titl{
+            font-size: 14px;
+            color: #d1eaee; 
+
+        }
+        .list_{
+           
+            margin-top: 30px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 2rem;
+            border-left: 3px solid var(--btn-bg);
+            .box_{
+                position: relative;
+                display: flex;
+                flex-direction: column; 
+                margin-bottom: 30px;
+                &:nth-child(4){
+                    margin-bottom: 0;
+                }
+                &::before{
+                    content: '';
+                    position: absolute;
+                    left: -41px;
+                    top: 0;
+                    width: 15px;
+                    height:15px;
+                    border-radius: 50px;
+                    background: var(--btn-bg);
+                }
+                .names{
+                     margin-top: -5px;
+                    font-size: 17px;
+                    color: var(--white);
+                    .color_{
+                        color: var(--btn-bg);
+                    }
+                }
+                .bady_{
+                    color: #d1eaee;
+                    margin-top: 6px;
+                    font-size: 13px;
+                }
+            }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:900px){
+  .special_container {
+    background: linear-gradient(
+      180deg,
+      #010309,
+      #02040fcf,
+      #00000063,
+      #0c10263f,
+      #0c1026b3,
+      #000102db,
+      #000000
+      ),
+      url(../../assets/background/saturn.jpg), 
+      center no-repeat;
+      background-size:  cover;
+    .content_ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .name_ {
+        margin-top: 20px;
+        color: var(--btn-bg);
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .title_ {
+        text-align: center;
+        font-size: 35px;
+        color: var(--white);
+        margin-top: 10px;
+      }
+      .contain_ {
+          width: 100%; 
+        margin-bottom: 30px;
+        display: flex; 
+        justify-content: start;
+        .block_{
+            width: 50%; 
+        }
+         
+        .text_blok{
+          .titl{
+              font-size: 14px;
+              color: #d1eaee; 
+  
+          }
+          .list_{
+             
+              margin-top: 30px;
+              margin-bottom: 30px;
+              display: flex;
+              flex-direction: column;
+              padding-left: 2rem;
+              border-left: 3px solid var(--btn-bg);
+              .box_{
+                  position: relative;
+                  display: flex;
+                  flex-direction: column; 
+                  margin-bottom: 30px;
+                  &:nth-child(4){
+                      margin-bottom: 0;
+                  }
+                  &::before{
+                      content: '';
+                      position: absolute;
+                      left: -41px;
+                      top: 0;
+                      width: 15px;
+                      height:15px;
+                      border-radius: 50px;
+                      background: var(--btn-bg);
+                  }
+                  .names{
+                       margin-top: -5px;
+                      font-size: 17px;
+                      color: var(--white);
+                      .color_{
+                          color: var(--btn-bg);
+                      }
+                  }
+                  .bady_{
+                      color: #d1eaee;
+                      margin-top: 6px;
+                      font-size: 13px;
+                  }
+              }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:772px){
+  .special_container {
+    background: linear-gradient(
+      180deg,
+      #010309,
+      #02040fcf,
+      #00000063,
+      #0c10263f,
+      #0c1026b3,
+      #000102db,
+      #000000
+      ),
+      url(../../assets/background/saturn.jpg), 
+      center no-repeat;
+      background-size:  cover;
+    .content_ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .name_ {
+        margin-top: 20px;
+        color: var(--btn-bg);
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .title_ {
+        text-align: center;
+        font-size: 35px;
+        color: var(--white);
+        margin-top: 10px;
+      }
+      .contain_ {
+          width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        display: flex; 
+        justify-content: start;
+        .block_{
+            width: 100%; 
+        }
+         
+        .text_blok{
+          .titl{
+              font-size: 14px;
+              color: #d1eaee; 
+  
+          }
+          .list_{
+             
+              margin-top: 30px;
+              margin-bottom: 30px;
+              display: flex;
+              flex-direction: column;
+              padding-left: 2rem;
+              border-left: 3px solid var(--btn-bg);
+              .box_{
+                  position: relative;
+                  display: flex;
+                  flex-direction: column; 
+                  margin-bottom: 30px;
+                  &:nth-child(4){
+                      margin-bottom: 0;
+                  }
+                  &::before{
+                      content: '';
+                      position: absolute;
+                      left: -41px;
+                      top: 0;
+                      width: 15px;
+                      height:15px;
+                      border-radius: 50px;
+                      background: var(--btn-bg);
+                  }
+                  .names{
+                       margin-top: -5px;
+                      font-size: 17px;
+                      color: var(--white);
+                      .color_{
+                          color: var(--btn-bg);
+                      }
+                  }
+                  .bady_{
+                      color: #d1eaee;
+                      margin-top: 6px;
+                      font-size: 13px;
+                  }
+              }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:576px){
+  .special_container {
+    background: linear-gradient(
+      180deg,
+      #010309,
+      #02040fcf,
+      #00000063,
+      #0c10263f,
+      #0c1026b3,
+      #000102db,
+      #000000
+      ),
+      url(../../assets/background/saturn.jpg), 
+      center no-repeat;
+      background-size:  cover;
+    .content_ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .name_ {
+        margin-top: 20px;
+        color: var(--btn-bg);
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      .title_ {
+        text-align: center;
+        font-size: 30px;
+        color: var(--white);
+        margin-top: 10px;
+      }
+      .contain_ {
+          width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        display: flex; 
+        justify-content: start;
+        .block_{
+            width: 100%; 
+            padding-left: 15px;
+
+        }
+         
+        .text_blok{
+          .titl{
+              font-size: 14px;
+              color: #d1eaee; 
+  
+          }
+          .list_{
+             
+              margin-top: 30px;
+              margin-bottom: 30px;
+              display: flex;
+              flex-direction: column;
+              padding-left: 2rem;
+              border-left: 3px solid var(--btn-bg);
+              .box_{
+                  position: relative;
+                  display: flex;
+                  flex-direction: column; 
+                  margin-bottom: 30px;
+                  &:nth-child(4){
+                      margin-bottom: 0;
+                  }
+                  &::before{
+                      content: '';
+                      position: absolute;
+                      left: -41px;
+                      top: 0;
+                      width: 15px;
+                      height:15px;
+                      border-radius: 50px;
+                      background: var(--btn-bg);
+                  }
+                  .names{
+                       margin-top: -5px;
+                      font-size: 17px;
+                      color: var(--white);
+                      .color_{
+                          color: var(--btn-bg);
+                      }
+                  }
+                  .bady_{
+                      color: #d1eaee;
+                      margin-top: 6px;
+                      font-size: 13px;
+                  }
+              }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:450px){
+  .special_container {
+    background: linear-gradient(
+      180deg,
+      #010309,
+      #02040fcf,
+      #00000063,
+      #0c10263f,
+      #0c1026b3,
+      #000102db,
+      #000000
+      ),
+      url(../../assets/background/saturn.jpg), 
+      center no-repeat;
+      background-size:  cover;
+    .content_ {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .name_ {
+        margin-top: 10px;
+        color: var(--btn-bg);
+        text-transform: uppercase;
+        font-size: 13px;
+      }
+      .title_ {
+        text-align: center;
+        font-size: 22px;
+        color: var(--white);
+        margin-top: 10px;
+      }
+      .contain_ {
+          width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        display: flex; 
+        justify-content: start;
+        .block_{
+            width: 100%; 
+        }
+         
+        .text_blok{ 
+          .titl{
+              font-size: 12px;
+              color: #d1eaee; 
+  
+          }
+          .list_{ 
+              margin-top: 20px;
+              margin-bottom: 30px;
+              display: flex;
+              flex-direction: column;
+              padding-left: 2rem;
+              border-left: 3px solid var(--btn-bg);
+              .box_{
+                  position: relative;
+                  display: flex;
+                  flex-direction: column; 
+                  margin-bottom: 20px;
+                  &:nth-child(4){
+                      margin-bottom: 0;
+                  }
+                  &::before{
+                      content: '';
+                      position: absolute;
+                      left: -41px;
+                      top: 0;
+                      width: 15px;
+                      height:15px;
+                      border-radius: 50px;
+                      background: var(--btn-bg);
+                  }
+                  .names{
+                       margin-top: -5px;
+                      font-size: 16px;
+                      color: var(--white);
+                      .color_{
+                          color: var(--btn-bg);
+                      }
+                  }
+                  .bady_{
+                      color: #d1eaee;
+                      margin-top: 6px;
+                      font-size: 12px;
+                  }
+              }
+          }
+        }
+      }
+    }
+  }
+}

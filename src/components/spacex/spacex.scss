@@ -1,0 +1,101 @@
+:root {
+  --white: #ffffff;
+  --btn-bg: #2befc8;
+}
+.spacex_container {
+  background: linear-gradient(
+      180deg,
+      #01020b,
+      #000000e5,
+      #000000b6,
+      #0c10269e,
+      #0c1026a0,
+      #04050fcf,
+      #000000
+    ),
+    url(../../assets/background/spacex_bg.jpg), no-repeat;
+  background-size: cover;
+  .content_ {
+    position: relative;
+     
+    .cosmos {
+      position: absolute;
+      left: -150px;
+      top: 50px;
+      max-width: 100%;
+      animation: cosmos 2s infinite ease;
+      z-index: 2;
+    }
+    
+  }
+}
+@keyframes cosmos {
+  0%{
+    top: 35px;
+    transform: rotate(0deg);
+  }
+  50%{
+    top: 50px;
+    transform: rotate(-2deg);
+  }
+  100%{
+    top: 35px;
+    transform: rotate(0deg);
+  }
+}
+
+@media screen and (max-width:576px){
+  .spacex_container {
+    background: linear-gradient(
+        180deg,
+        #01020b,
+        #000000e5,
+        #000000b6,
+        #0c10269e,
+        #0c1026a0,
+        #04050fcf,
+        #000000
+      ),
+      url(../../assets/background/spacex_bg.jpg), no-repeat;
+    background-size: cover;
+    .content_ {
+      position: relative;
+      
+      .cosmos {
+        position: absolute;
+        left: -100px;
+        top: 20px;
+        max-width: 100%;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width:450px){
+  .spacex_container {
+    background: linear-gradient(
+        180deg,
+        #01020b,
+        #000000e5,
+        #000000b6,
+        #0c10269e,
+        #0c1026a0,
+        #04050fcf,
+        #000000
+      ),
+      url(../../assets/background/spacex_bg.jpg),  no-repeat;
+    background-size: cover;
+    .content_ {
+      position: relative;
+      
+      .cosmos {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        max-width: 100%;
+      }
+    }
+  }
+  
+}
