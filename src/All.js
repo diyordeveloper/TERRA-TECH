@@ -9,13 +9,14 @@ import Partners from "./components/partners/Partners";
 import Footer from "./components/footer/Footer"; 
 import "bootstrap/dist/css/bootstrap.css";
 import "./assets/style/my.css";
-import "./assets/style/style.scss";
-import Scroll from "./components/Scroll";
-
+import "./assets/style/style.scss"; 
+ 
 function All() {
   return (
     <>
       <div className="wrapper">
+        
+        
         <Home_1 />
         <About />
         <Service />
@@ -23,8 +24,7 @@ function All() {
         <SpaceX />
         <Dolorem />
         <Partners />
-        <Footer />
-        <Scroll/>
+        <Footer /> 
       </div>
     </>
   );

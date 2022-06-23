@@ -4,7 +4,7 @@ import "./home_1.scss";
 
 function Home_1() {
   return (
-    <div className="home_container height_">
+    <div className="home_container height_  ">
       <Header />
       <div className="container ">
         <div className="content_">

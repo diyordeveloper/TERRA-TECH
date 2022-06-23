@@ -1,9 +1,15 @@
+
 :root {
   --white: #ffffff;
   --btn-bg: #2befc8;
 }
 a {
   text-decoration: none;
+}
+.button_top{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
 }
 .btn_bg_ {
   text-transform: uppercase;
@@ -54,6 +60,7 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
+   
   .btn_bg_,
   .btn_bg_transparent {
     margin-bottom: 50px;

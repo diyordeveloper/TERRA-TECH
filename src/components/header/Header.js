@@ -84,7 +84,7 @@ function Header() {
           <ul className="ul_">
             <li>
               <a href="#" className="link_">
-                Home 9-708u9-i
+                Home 
               </a>
             </li>
             <li>
