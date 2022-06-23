@@ -7,8 +7,7 @@ function SpaceX() {
     <div className="spacex_container height_sm">
       <div className="container">
         <div className="content_">
-          <img src={cosmos} className={"cosmos"} alt="Error" /> 
-          
+          <img src={cosmos} className={"cosmos"} alt="Error" />
         </div>
       </div>
     </div>

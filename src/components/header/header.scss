@@ -250,7 +250,9 @@
 }
 
 @media screen and (max-width:500px) {
-  
+  .ul_logo{
+    padding: 0 !important;
+   }
   .nav_bar {
     display: flex;
     align-items: center;
@@ -347,9 +349,7 @@
 }
 
 @media screen and (max-width:350px){
-  .ul_logo{
-    padding: 0 !important;
-   }
+  
   .nav_bar {
     display: flex;
     align-items: center;
