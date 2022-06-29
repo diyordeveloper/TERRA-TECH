@@ -1,12 +1,31 @@
-
 :root {
   --white: #ffffff;
   --btn-bg: #2befc8;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 a {
   text-decoration: none;
 }
-.button_top{
+
+.button_top {
   position: fixed;
   bottom: 50px;
   right: 50px;
@@ -14,6 +33,7 @@ a {
 .btn_bg_ {
   text-transform: uppercase;
   background: var(--btn-bg);
+  color: var(--white);
   padding: 10px 40px;
   border-radius: 100px;
   border: 2px solid #2befc8;
@@ -60,7 +80,6 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-   
   .btn_bg_,
   .btn_bg_transparent {
     margin-bottom: 50px;
@@ -91,6 +110,7 @@ a {
     height: 55vh;
   }
   .btn_bg_ {
+    text-align: center;
     width: 100%;
     text-transform: uppercase;
     background: var(--btn-bg);
@@ -158,16 +178,16 @@ a {
     height: 40vh;
   }
 }
-@media screen and (min-width: 1201px){
+@media screen and (min-width: 1201px) {
   .height_md {
-    height:76vh;
+    height: 76vh;
   }
 }
 
-.btn_fixed{
+.btn_fixed {
   position: fixed;
   bottom: 50px;
   right: 50px;
   background: red;
-  padding: 10px; 
+  padding: 10px;
 }

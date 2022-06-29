@@ -6,17 +6,68 @@ import Special from "./components/special/Special";
 import SpaceX from "./components/spacex/SpaceX";
 import Dolorem from "./components/dolorem/Dolorem";
 import Partners from "./components/partners/Partners";
-import Footer from "./components/footer/Footer"; 
-import "bootstrap/dist/css/bootstrap.css";
-import "./assets/style/my.css";
-import "./assets/style/style.scss"; 
- 
+import Footer from "./components/footer/Footer";
+import LanguageIcon from "@mui/icons-material/Language";
+import i18next from "i18next";
+import cookie from "js-cookie";
+import { useTranslation } from "react-i18next";
+
+import Uzbekistan from './assets/logo_svg/uzbekistan.png'
+import Russia from './assets/logo_svg/russia.png'
+const language = [
+  {
+    code: "uz",
+    name: "Uzb",
+    images:Uzbekistan,
+  },
+  {
+    code: "ru",
+    name: "Rus",
+    images:Russia,
+  },
+];
 function All() {
+  const { t } = useTranslation();
+
+  const currentLanguageCode = cookie.get("i18next") || "ru";
+  const currentLanguage = language.find((l) => l.code === currentLanguageCode);
+
+  const [toggleLangMenu, setToggleLangMenu] = useState(false);
+
+  const LangMenuToggle = () => {
+    setToggleLangMenu(!toggleLangMenu);
+  };
+  useEffect(() => {
+    document.body.dir = currentLanguage.dir || "ltr";
+    document.title = t("app_title");
+  }, [currentLanguage, t]);
   return (
     <>
-      <div className="wrapper">
-        
-        
+      <div className="language_" onClick={LangMenuToggle}>
+        <LanguageIcon className="icon_" />
+      </div>
+      <div
+        className={toggleLangMenu ? "lang_menu show_lang_menu " : "lang_menu"}
+      >
+        {language.map(({ code, name,images }) => (
+          <>
+            <a
+              key={code}
+              href="#"
+              onClick={() => i18next.changeLanguage(code)}
+              className={
+                code === currentLanguageCode
+                  ? "lang_btn active_lang"
+                  : "lang_btn "
+              }
+            >
+              <img src={images} alt={code} />
+              {name}
+            </a>
+          </>
+        ))}
+      </div>
+      <div className="wrapper" onClick={() => setToggleLangMenu(false)}>
         <Home_1 />
         <About />
         <Service />
@@ -24,7 +75,7 @@ function All() {
         <SpaceX />
         <Dolorem />
         <Partners />
-        <Footer /> 
+        <Footer />
       </div>
     </>
   );

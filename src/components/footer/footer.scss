@@ -22,6 +22,7 @@
     flex-direction: column;
     .logo_ {
       margin-top:45px;
+      width: 160px;
     }
     .ul_ {
       margin-top: 50px;
@@ -34,6 +35,7 @@
          }
         padding: 0 40px;
         .link_ {
+          text-transform: uppercase;
           position: relative;
           &::before {
             transition: 0.3s;
@@ -118,7 +120,7 @@
       flex-direction: column;
       .logo_ {
         margin-top: 60px;
-        width: 280px;
+        width: 160px;
       }
       .ul_ {
         margin-top: 30px;
@@ -131,7 +133,8 @@
            }
           padding: 0 40px;
           .link_ {
-            position: relative;
+          text-transform: uppercase;
+          position: relative;
             &::before {
               transition: 0.3s;
               content: "";
@@ -214,7 +217,7 @@
       flex-direction: column;
       .logo_ {
         margin-top: 50px;
-        width: 280px;
+        width: 140px;
       }
       .ul_ {
         margin-top: 30px;
@@ -228,7 +231,8 @@
           padding: 0 20px;
           font-size: 14px;
           .link_ {
-            position: relative;
+          text-transform: uppercase;
+          position: relative;
             &::before {
               transition: 0.3s;
               content: "";
@@ -290,7 +294,7 @@
     }
   }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 350px){
   .footer_container {
     background: linear-gradient(
         180deg,
@@ -311,7 +315,7 @@
       flex-direction: column;
       .logo_ {
         margin-top: 40px;
-        width: 250px;
+        width: 130px;
       }
       .ul_ {
         margin-top: 30px;
@@ -325,7 +329,8 @@
           padding: 0 10px;
           font-size: 12px;
           .link_ {
-            position: relative;
+          text-transform: uppercase;
+          position: relative;
             &::before {
               transition: 0.3s;
               content: "";

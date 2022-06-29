@@ -1,7 +1,7 @@
 import React from "react";
 import "./spacex.scss";
 import cosmos from "../../assets/background/cosmos.png";
-import zigzag from "../../assets/logo_svg/zigzag.png";
+
 function SpaceX() {
   return (
     <div className="spacex_container height_sm">

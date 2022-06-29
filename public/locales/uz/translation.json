@@ -1,0 +1,110 @@
+{
+  "app_title": "Sarlavha - PlanetRoc",
+  "investitsiya_btn": "INVESTITSIYA",
+  "learn_more_btn": "Ma'lumot olish",
+  "navbar_links": {
+    "1": "Bosh sahifa",
+    "2": "BIZ HAQIMIZDA",
+    "3": "Xizmatlar"
+  },
+  "home_page": {
+    "title": "Sayt test rejimida ishlamoqda !",
+    "body": "Orzuingizdagi biznesingizni yarating va biz bilan birgalikda uni yanada rivojlantiring.Siz shunchaki bizga ishongan holda maqsadlaringizni his qilsangiz bas. Buyuk maqsad albatta amalga oshadi!"
+  },
+  "about_page": {
+    "link": "BIZ HAQIMIZDA",
+    "title": "Sayt test rejimida ishlamoqda !",
+    "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz."
+  },
+  "service_page": {
+    "link": "Xizmatlar",
+    "title": "Sifatli va tezkor harakat",
+    "services": {
+      "1": {
+        "title": "Ijtimoiy tarmoqlarni boshqarish",
+        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+      },
+      "2": {
+        "title": "Qidiruv tizimi, optimizatsiya qilish",
+        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+      },
+      "3": {
+        "title": "Dizayn",
+        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+      },
+      "4": {
+        "title": "Web-sahifalar",
+        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+      },
+      "5": {
+        "title": "Mobil dasturlar",
+        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+      },
+      "6": {
+        "title": "Krossplatformalar",
+        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+      }
+    }
+  },
+  "special_page": {
+    "link": "MAXSUS YO'LIMIZ",
+    "title": "Sayt test rejimida ishlamoqda !",
+    "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz.",
+    "special": {
+      "1": {
+        "time": "June 2021 -",
+        "title": "Sayt test rejimida !",
+        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+      },
+      "2": {
+        "time": "March 2021 -",
+        "title": "Sayt test rejimida !",
+        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+      },
+      "3": {
+        "time": "September 2021 -",
+        "title": "Sayt test rejimida !",
+        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+      },
+      "4": {
+        "time": "December 2021 -",
+        "title": "Sayt test rejimida !",
+        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+      }
+    }
+  },
+  "dolorem_page": {
+    "link": "DOLOREM EUM FUGIAT",
+    "title": "Sayt test rejimida ishlamoqda !",
+    "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz.",
+    "dolorem_ul_list": {
+      "1": "Biz sizning biznes maqsadingizga yordam berish uchun",
+      "2": "Biz sizning biznes maqsadingizga yordam berish uchun",
+      "3": "Biz sizning biznes maqsadingizga yordam berish uchun",
+      "4": "Biz sizning biznes maqsadingizga yordam berish uchun"
+    },
+    "dolorem_card": {
+      "1": "Biz sizning biznes maqsadingizga yordam berish uchun",
+      "2": "Biz sizning biznes maqsadingizga yordam berish uchun",
+      "3": "Biz sizning biznes maqsadingizga yordam berish uchun",
+      "4": "Biz sizning biznes maqsadingizga yordam berish uchun"
+    }
+  },
+  "partners_page": {
+    "link": "BIZNING HAMKORLIK",
+    "title": "Sayt test rejimida ishlamoqda !",
+    "partners": {
+      "title": "Biz sizning biznes maqsadingizga yordam berish uchun   harakat qilamiz.",
+      "body1": "Biz sizning biznes maqsadingizga yordam berish olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.",
+      "body2": "Biz sizning biznes maqsadingizga yordam berish olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz."
+    }
+  },
+  "footer_page": {
+    "footer_links": {
+      "1": "Bosh sahifa",
+      "2": "BIZ HAQIMIZDA",
+      "3": "Xizmatlar"
+    },
+    "body":"Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz."
+  }
+}

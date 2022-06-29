@@ -1,24 +1,17 @@
 import React, { useState } from "react";
-import "./header.scss";
-import logo from "../../assets/logo_svg/logo.png";
+import logo from "../../assets/logo_svg/logo.svg";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import { useTranslation } from "react-i18next";
+
+import "./header.scss";
 function Header() {
+  const { t } = useTranslation();
   const [navClick, setNavClick] = useState(false);
-  // const [navfixed,setNavFixed] = useState(true)
   function onClickNav() {
     setNavClick(!navClick);
   }
-  // const onNavFixed=()=>{
-  //   if(window.scrollY >= 90){
-  //     setNavFixed(true)
-  //   }else{
-  //     setNavFixed(false)
-  //   }
-  // }
-
-  // window.addEventListener("scroll",onNavFixed)
 
   return (
     <>
@@ -26,30 +19,30 @@ function Header() {
         <div className={"nav_"}>
           <ul className="ul_logo">
             <li>
-              <a href="#" className="logo">
-                <img src={logo} alt="Error" />
+              <a href="#">
+                <img src={logo} className="logo" alt="Error" />
               </a>
             </li>
           </ul>
           <ul className="ul_">
             <li>
               <a href="#" className="link_">
-                Home
+               {t("navbar_links.1")}
               </a>
             </li>
             <li>
               <a href="#" className="link_">
-                About Us
+              {t("navbar_links.2")}
               </a>
             </li>
             <li>
               <a href="#" className="link_">
-                Services
+              {t("navbar_links.3")}
               </a>
             </li>
             <li>
               <a href="#" className="btn_bg_">
-                invest now
+                {t("investitsiya_btn")}
               </a>
             </li>
           </ul>
@@ -57,8 +50,8 @@ function Header() {
         <div className="nav_bar">
           <ul className="ul_logo">
             <li>
-              <a href="#" className="logo">
-                <img src={logo} alt="Error" />
+              <a href="#">
+                <img src={logo} className="logo" alt="Error" />
               </a>
             </li>
           </ul>
@@ -76,30 +69,30 @@ function Header() {
           </IconButton>
           <ul className="ul_logo">
             <li>
-              <a href="#" className="logo">
-                <img src={logo} alt="Error" />
+              <a href="#">
+                <img src={logo} className="logo" alt="Error" />
               </a>
             </li>
           </ul>
           <ul className="ul_">
             <li>
               <a href="#" className="link_">
-                Home 
+              {t("navbar_links.1")}
               </a>
             </li>
             <li>
               <a href="#" className="link_">
-                About Us
+              {t("navbar_links.2")}
               </a>
             </li>
             <li>
               <a href="#" className="link_">
-                Services
+              {t("navbar_links.3")}
               </a>
             </li>
             <li>
               <a href="#" className="btn_bg_">
-                invest now
+              {t("investitsiya_btn")}
               </a>
             </li>
           </ul>

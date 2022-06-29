@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useTranslation } from "react-i18next";
 
 // Import Swiper styles
 import "swiper/css";
@@ -19,14 +20,16 @@ import category_3 from "../../assets/img/category_3.png";
 import category_4 from "../../assets/img/category_4.png";
 import category_5 from "../../assets/img/category_5.png";
 import category_6 from "../../assets/img/category_6.png";
+import BtnBg from "../btn/BtnBg";
 
 function Partners() {
+  const { t } = useTranslation();
   return (
     <div className="partners_container height_">
       <div className="container">
         <div className="content_">
-          <span className="name_">Our Partners</span>
-          <span className="title_">Ut Enim ad minim veniam
+          <span className="name_">{t("partners_page.link")}</span>
+          <span className="title_">{t("partners_page.title")}
           </span>
 
           <div className="carousel_">
@@ -137,18 +140,18 @@ function Partners() {
             </Swiper>
           </div>
           <span className="titl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          {t("partners_page.partners.title")}
           </span>
           <div className="text_">
             <span className="bady_">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tenetur vel illo velit doloribus cupiditate dolorum. Debitis obcaecati similique ea, enim dicta, sapiente architecto beatae, eveniet laboriosam cupiditate error impedit aut inventore minus!
+            {t("partners_page.partners.body1")}
             </span>
             <span className="bady_">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tenetur vel illo velit doloribus cupiditate dolorum. Debitis obcaecati similique ea, enim dicta, sapiente architecto beatae, eveniet laboriosam cupiditate error impedit aut inventore minus!
+            {t("partners_page.partners.body1")}
             </span>
           </div>
          <div className="div_btn">
-         <button className="btn_bg_ ">Learn More</button>
+         <BtnBg/>
          </div>
 
         </div>

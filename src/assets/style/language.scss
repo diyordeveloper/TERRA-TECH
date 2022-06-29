@@ -1,0 +1,191 @@
+// languale
+.language_ {
+    z-index: 2221;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    background: var(--btn-bg);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 2px 0 0 2px;
+    transition: 0.1s;
+    &:active{
+      background: #0000ffb5;
+    }
+    &:hover {
+      .icon_ {
+        font-size: 38px;
+      }
+    }
+    .icon_ {
+      color: var(--white);
+      font-size: 35px;
+      animation: 2s rotatelang infinite;
+    }
+  }
+  .lang_menu {   
+    z-index: 2220;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -200px;
+    background: var(--btn-bg);
+    border-radius: 2px;
+    padding: 8px 20px;
+    transition: 0.1s;
+    opacity: 0;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 40%;
+      right: -10px;
+      background: var(--btn-bg);
+      width: 20px;
+      height: 20px;
+      transform: rotate(45deg);
+    }
+    .lang_btn {
+      text-transform: uppercase;
+      width: 100%;
+      padding: 5px 20px;
+      color: #fff; 
+    transition: 0.1s; 
+    img{
+      max-width: 100%;
+      padding-right: 12px;
+    }
+    &:hover{
+    background: #0000ff4f; 
+      }
+    }
+    .lang_btn.active_lang{
+      background:  #0000ffb5;
+    }
+  }
+  .lang_menu.show_lang_menu{ 
+    right:85px;
+    opacity: 1;   
+  }
+  @keyframes rotatelang {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media screen and (max-width:1000px) {
+    .language_ {
+        z-index: 2221;
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0px;
+        background: var(--btn-bg);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 2px 0 0 2px;
+        transition: 0.1s;
+        &:active{
+          background: #0000ffb5;
+        }
+        &:hover {
+          .icon_ {
+            font-size: 38px;
+          }
+        }
+        .icon_ {
+          color: var(--white);
+          font-size: 35px;
+          animation: 2s rotatelang infinite;
+        }
+      }
+  }
+
+  @media screen and (max-width:500px) {
+    .language_ {
+        z-index: 2221;
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0px;
+        background: var(--btn-bg);
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 2px 0 0 2px;
+        transition: 0.1s;
+        &:active{
+          background: #0000ffb5;
+        }
+        &:hover {
+          .icon_ {
+            font-size: 35px;
+          }
+        }
+        .icon_ {
+          color: var(--white);
+          font-size: 32px;
+          animation: 4s rotatelang infinite;
+        }
+      }
+      .lang_menu {   
+        z-index: 2220;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -200px;
+        background: var(--btn-bg);
+        border-radius: 2px;
+        padding: 6px 16px;
+        transition: 0.1s;
+        opacity: 0;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 40%;
+          right: -8px;
+          background: var(--btn-bg);
+          width: 15px;
+          height: 15px;
+          transform: rotate(45deg);
+        }
+        .lang_btn {
+          text-transform: uppercase;
+          width: 100%;
+          padding: 4px 18px;
+          color: #fff; 
+        transition: 0.1s; 
+        font-size: 14px;
+        &:hover{
+        background: #0000ff4f; 
+          }
+        }
+        .lang_btn.active_lang{
+          background:  #0000ffb5;
+        }
+      }
+      .lang_menu.show_lang_menu{ 
+        right:65px;
+        opacity: 1;   
+      }
+  }

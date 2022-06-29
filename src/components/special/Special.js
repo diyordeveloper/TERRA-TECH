@@ -1,61 +1,65 @@
 import React from "react";
+import BtnBg from "../btn/BtnBg";
 import "./special.scss";
+import { useTranslation } from "react-i18next";
 function Special() {
+  const { t } = useTranslation();
   return (
     <div className="special_container height_">
       <div className="container">
         <div className="content_">
-          <span className="name_">Our Special Way</span>
-          <span className="title_">PlanetRoc Roadmap</span>
+          <span className="name_">{t("special_page.link")}</span>
+          <span className="title_">{t("special_page.title")}</span>
           <div className="contain_">
             <div className="block_ text_blok">
-              <span className="titl">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
-                amet provident consequatur atque eaque alias?
-              </span>
+              <span className="titl">{t("special_page.body")}</span>
               <div className="list_">
                 <div className="box_">
                   <span className="names">
-                    <span className="color_">June 2021 - </span>
-                    Ut enim ad minima
+                    <span className="color_">
+                      {t("special_page.special.1.time")}
+                    </span>
+                    {t("special_page.special.1.title")}
                   </span>
                   <span className="bady_">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
-                    reprehenderit ut consequuntur excepturi tempore?
+                    {t("special_page.special.1.body")}
                   </span>
                 </div>
                 <div className="box_">
                   <span className="names">
-                    <span className="color_">March 2021 - </span>
-                    Sed ut perspiciatis
+                    <span className="color_">
+                      {t("special_page.special.2.time")}
+                    </span>
+                    {t("special_page.special.2.title")}
                   </span>
                   <span className="bady_">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
-                    reprehenderit ut consequuntur excepturi tempore?
+                    {t("special_page.special.2.body")}
                   </span>
                 </div>
                 <div className="box_">
                   <span className="names">
-                    <span className="color_">September 2021 - </span>
-                    Quis autem vel
+                    <span className="color_">
+                      {t("special_page.special.3.time")}{" "}
+                    </span>
+                    {t("special_page.special.3.title")}
                   </span>
                   <span className="bady_">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
-                    reprehenderit ut consequuntur excepturi tempore?
+                    {t("special_page.special.3.body")}
                   </span>
                 </div>
                 <div className="box_">
                   <span className="names">
-                    <span className="color_">December 2021 - </span>
-                    Nema enim ipsum
+                    <span className="color_">
+                      {t("special_page.special.4.time")}
+                    </span>
+                    {t("special_page.special.4.title")}
                   </span>
                   <span className="bady_">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
-                    reprehenderit ut consequuntur excepturi tempore?
+                    {t("special_page.special.4.body")}
                   </span>
                 </div>
               </div>
-              <button className="btn_bg_">Learn More</button>
+              <BtnBg />
             </div>
           </div>
         </div>

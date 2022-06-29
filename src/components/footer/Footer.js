@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.scss";
-import logo from "../../assets/logo_svg/logo.png";
+import logo from "../../assets/logo_svg/logo.svg";
+import { useTranslation } from "react-i18next";
 
 // Icons
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -10,6 +11,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TelegramIcon from "@mui/icons-material/Telegram";
 
 function Footer() {
+  const { t } = useTranslation();
   return (
     <div className="footer_container height_md">
       <div className="container">
@@ -18,26 +20,21 @@ function Footer() {
           <ul className="ul_">
             <li>
               <a href="#" className="link_">
-                Home
+                {t("footer_page.footer_links.1")}
               </a>
             </li>
             <li>
               <a href="#" className="link_">
-                About Us
+                {t("footer_page.footer_links.2")}
               </a>
             </li>
             <li>
               <a href="#" className="link_">
-                Services
+                {t("footer_page.footer_links.3")}
               </a>
             </li>
           </ul>
-          <p className="body_">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            dolore magni earum exercitationem possimus ab. Velit iure, quae
-            voluptatibus cumque ipsa consectetur numquam nesciunt quidem
-            pariatur, esse unde vel ad! Excepturi cum nemo laborum voluptatum .
-          </p>
+          <p className="body_">{t("footer_page.body")}</p>
           <div className="messenger_">
             <div className="border_">
               <FacebookIcon className="icon_" />
@@ -59,9 +56,9 @@ function Footer() {
       </div>
       <hr className="hr_" />
       <div className="div_link">
-      <a href="#" className="footer_link">
-        Copyright 2022 Planet Roc. All rights reserved.
-      </a>
+        <a href="#" className="footer_link">
+          Copyright 2022 Planet Roc. All rights reserved.
+        </a>
       </div>
     </div>
   );
