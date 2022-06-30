@@ -14,13 +14,16 @@ import { useTranslation } from "react-i18next";
 
 import Uzbekistan from './assets/logo_svg/uzbekistan.png'
 import Russia from './assets/logo_svg/russia.png'
+import Contact from "./components/contact/Contact";
 const language = [
   {
+    id:1,
     code: "uz",
     name: "Uzb",
     images:Uzbekistan,
   },
   {
+    id:2,
     code: "ru",
     name: "Rus",
     images:Russia,
@@ -49,10 +52,10 @@ function All() {
       <div
         className={toggleLangMenu ? "lang_menu show_lang_menu " : "lang_menu"}
       >
-        {language.map(({ code, name,images }) => (
+        {language.map(({id, code, name,images }) => (
           <>
             <a
-              key={code}
+              key={id}
               href="#"
               onClick={() => i18next.changeLanguage(code)}
               className={
@@ -75,6 +78,7 @@ function All() {
         <SpaceX />
         <Dolorem />
         <Partners />
+        <Contact />
         <Footer />
       </div>
     </>

@@ -2,6 +2,7 @@
   "app_title": "Sarlavha - Terra Tech",
   "investitsiya_btn": "INVESTITSIYA",
   "learn_more_btn": "Ma'lumot olish",
+  "submit":"YUBORISH",
   "navbar_links": {
     "1": "Bosh sahifa",
     "2": "BIZ HAQIMIZDA",
@@ -97,6 +98,24 @@
       "title": "Biz sizning biznes maqsadingizga yordam berish uchun   harakat qilamiz.",
       "body1": "Biz sizning biznes maqsadingizga yordam berish olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.",
       "body2": "Biz sizning biznes maqsadingizga yordam berish olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz."
+    }
+  },
+  "contact_page":{
+    "link": "Aloqa",
+    "title": "Sayt test rejimida ishlamoqda !",
+    "contact":{
+      "form_placeholder":{
+        "1":"Ismingiz",
+        "2":"Telefon raqamingiz",
+        "3":"Elektron pochtangiz",
+        "4":"Fikrlaringiz"
+      },
+      "text":{
+        "title":"Biz bilan bog'laning",
+        "tel":"Telefon raqam :",
+        "job_time":"Ish vaqti :",
+        "pochta":"Elektron pochta :"
+      }
     }
   },
   "footer_page": {
