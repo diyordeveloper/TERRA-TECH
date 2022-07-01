@@ -3,8 +3,7 @@ import Home_1 from "./components/home_1/Home_1";
 import About from "./components/about/About";
 import Service from "./components/service/Service";
 import Special from "./components/special/Special";
-import SpaceX from "./components/spacex/SpaceX";
-import Dolorem from "./components/dolorem/Dolorem";
+import SpaceX from "./components/spacex/SpaceX"; 
 import Partners from "./components/partners/Partners";
 import Footer from "./components/footer/Footer";
 import LanguageIcon from "@mui/icons-material/Language";
@@ -15,6 +14,7 @@ import { useTranslation } from "react-i18next";
 import Uzbekistan from './assets/logo_svg/uzbekistan.png'
 import Russia from './assets/logo_svg/russia.png'
 import Contact from "./components/contact/Contact";
+import Strategiya from "./components/dolorem/Strategiya";
 const language = [
   {
     id:1,
@@ -76,7 +76,7 @@ function All() {
         <Service />
         <Special />
         <SpaceX />
-        <Dolorem />
+        <Strategiya />
         <Partners />
         <Contact />
         <Footer />

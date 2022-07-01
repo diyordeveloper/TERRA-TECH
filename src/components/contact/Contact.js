@@ -60,11 +60,11 @@ function Contact() {
             <div className="context_">
               <span className="title_2">{t("contact_page.contact.text.title")}</span>
               <div className="box_">
-                <span className="title_3">{t("contact_page.contact.text.tel")}</span>
+                <span className="title_3">{t("contact_page.contact.text.job_time")}</span>
                 <span className="job_time">09:00-20:00</span>
               </div>
               <div className="box_">
-                <span className="title_3">{t("contact_page.contact.text.job_time")}</span>
+                <span className="title_3">{t("contact_page.contact.text.tel")}</span>
                 <a href="tel:+99898 888 12 52" className="phone_num">
                   +998 98 888 12 52
                 </a>

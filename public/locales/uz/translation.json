@@ -74,17 +74,17 @@
       }
     }
   },
-  "dolorem_page": {
-    "link": "DOLOREM EUM FUGIAT",
+  "strategiya_page": {
+    "link": "Strategiya",
     "title": "Sayt test rejimida ishlamoqda !",
     "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz.",
-    "dolorem_ul_list": {
+    "strategiya_ul_list": {
       "1": "Biz sizning biznes maqsadingizga yordam berish uchun",
       "2": "Biz sizning biznes maqsadingizga yordam berish uchun",
       "3": "Biz sizning biznes maqsadingizga yordam berish uchun",
       "4": "Biz sizning biznes maqsadingizga yordam berish uchun"
     },
-    "dolorem_card": {
+    "strategiya_card": {
       "1": "Biz sizning biznes maqsadingizga yordam berish uchun",
       "2": "Biz sizning biznes maqsadingizga yordam berish uchun",
       "3": "Biz sizning biznes maqsadingizga yordam berish uchun",
@@ -112,8 +112,8 @@
       },
       "text":{
         "title":"Biz bilan bog'laning",
-        "tel":"Telefon raqam :",
         "job_time":"Ish vaqti :",
+        "tel":"Telefon raqam :",
         "pochta":"Elektron pochta :"
       }
     }
