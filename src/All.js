@@ -3,7 +3,7 @@ import Home_1 from "./components/home_1/Home_1";
 import About from "./components/about/About";
 import Service from "./components/service/Service";
 import Special from "./components/special/Special";
-import SpaceX from "./components/spacex/SpaceX"; 
+import SpaceX from "./components/spacex/SpaceX";
 import Partners from "./components/partners/Partners";
 import Footer from "./components/footer/Footer";
 import LanguageIcon from "@mui/icons-material/Language";
@@ -11,32 +11,29 @@ import i18next from "i18next";
 import cookie from "js-cookie";
 import { useTranslation } from "react-i18next";
 
-import Uzbekistan from './assets/logo_svg/uzbekistan.png'
-import Russia from './assets/logo_svg/russia.png'
+import Uzbekistan from "./assets/logo_svg/uzbekistan.png";
+import Russia from "./assets/logo_svg/russia.png";
 import Contact from "./components/contact/Contact";
 import Strategiya from "./components/dolorem/Strategiya";
 const language = [
   {
-    id:1,
+    id: 1,
     code: "uz",
     name: "Uzb",
-    images:Uzbekistan,
+    images: Uzbekistan,
   },
   {
-    id:2,
+    id: 2,
     code: "ru",
     name: "Rus",
-    images:Russia,
+    images: Russia,
   },
 ];
 function All() {
-  const { t } = useTranslation();
-
+  const { t } = useTranslation(); 
   const currentLanguageCode = cookie.get("i18next") || "ru";
-  const currentLanguage = language.find((l) => l.code === currentLanguageCode);
-
-  const [toggleLangMenu, setToggleLangMenu] = useState(false);
-
+  const currentLanguage = language.find((l) => l.code === currentLanguageCode); 
+  const [toggleLangMenu, setToggleLangMenu] = useState(false); 
   const LangMenuToggle = () => {
     setToggleLangMenu(!toggleLangMenu);
   };
@@ -52,7 +49,7 @@ function All() {
       <div
         className={toggleLangMenu ? "lang_menu show_lang_menu " : "lang_menu"}
       >
-        {language.map(({id, code, name,images }) => (
+        {language.map(({ id, code, name, images }) => (
           <>
             <a
               key={id}

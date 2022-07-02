@@ -5,9 +5,9 @@ import { useTranslation } from "react-i18next";
 function Special() {
   const { t } = useTranslation();
   return (
-    <div className="special_container height_">
+    <div className="special_container height_" id="special">
       <div className="container">
-        <div className="content_">
+        <div className="content_ page_padding">
           <span className="name_">{t("special_page.link")}</span>
           <span className="title_">{t("special_page.title")}</span>
           <div className="contain_">

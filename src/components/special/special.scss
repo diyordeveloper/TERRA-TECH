@@ -21,8 +21,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    .name_ {
-      margin-top: 20px;
+    .name_ { 
       color: var(--btn-bg);
       text-transform: uppercase;
       font-size: 20px;
@@ -34,8 +33,7 @@
       margin-top: 10px;
     }
     .contain_ {
-        width: 100%; 
-      margin-bottom: 30px;
+        width: 100%;  
       display: flex; 
       justify-content: end;
       .block_{
@@ -114,8 +112,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      .name_ {
-        margin-top: 20px;
+      .name_ { 
         color: var(--btn-bg);
         text-transform: uppercase;
         font-size: 18px;
@@ -127,8 +124,7 @@
         margin-top: 10px;
       }
       .contain_ {
-          width: 100%; 
-        margin-bottom: 30px;
+          width: 100%;  
         display: flex; 
         justify-content: start;
         .block_{
@@ -207,8 +203,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      .name_ {
-        margin-top: 20px;
+      .name_ { 
         color: var(--btn-bg);
         text-transform: uppercase;
         font-size: 18px;
@@ -221,8 +216,7 @@
       }
       .contain_ {
           width: 100%;
-        margin-top: 10px;
-        margin-bottom: 30px;
+        margin-top: 10px; 
         display: flex; 
         justify-content: start;
         .block_{
@@ -303,8 +297,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      .name_ {
-        margin-top: 20px;
+      .name_ { 
         color: var(--btn-bg);
         text-transform: uppercase;
         font-size: 18px;
@@ -317,8 +310,7 @@
       }
       .contain_ {
           width: 100%;
-        margin-top: 10px;
-        margin-bottom: 30px;
+        margin-top: 10px; 
         display: flex; 
         justify-content: start;
         .block_{
@@ -401,8 +393,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      .name_ {
-        margin-top: 10px;
+      .name_ { 
         color: var(--btn-bg);
         text-transform: uppercase;
         font-size: 13px;
@@ -415,8 +406,7 @@
       }
       .contain_ {
           width: 100%;
-        margin-top: 10px;
-        margin-bottom: 30px;
+        margin-top: 10px; 
         display: flex; 
         justify-content: start;
         .block_{

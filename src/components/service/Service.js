@@ -1,19 +1,19 @@
 import React from "react";
-import "./service.scss";
 import moon_ from "../../assets/background/moon_1.png";
 import bitcoin_1 from "../../assets/logo_svg/bitcoin_1.png";
 import bitcoin_2 from "../../assets/logo_svg/bitcoin_2.png";
 import bitcoin_3 from "../../assets/logo_svg/bitcoin_3.png";
 import BtnBg from "../btn/BtnBg";
+import "./service.scss";
 
 import { useTranslation } from "react-i18next";
 function Service() {
   const { t } = useTranslation();
 
   return (
-    <div className="service_container height_">
+    <div className="service_container height_" id="service">
       <div className="container">
-        <div className="content_">
+        <div className="content_ page_padding">
           <span className="name_">{t("service_page.link")}</span>
           <span className="title_">
           {t("service_page.title")}

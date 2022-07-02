@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useTranslation } from "react-i18next";
 
+import { Pagination, Navigation, Autoplay } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -12,7 +13,6 @@ import "./partners.scss";
 import "./swipper.scss";
 
 // import required modules
-import { Pagination, Navigation, Autoplay } from "swiper";
 
 import category_1 from "../../assets/img/category_1.png";
 import category_2 from "../../assets/img/category_2.png";
@@ -25,9 +25,9 @@ import BtnBg from "../btn/BtnBg";
 function Partners() {
   const { t } = useTranslation();
   return (
-    <div className="partners_container height_">
+    <div className="partners_container height_" id="partners">
       <div className="container">
-        <div className="content_">
+        <div className="content_ page_padding">
           <span className="name_">{t("partners_page.link")}</span>
           <span className="title_">{t("partners_page.title")}
           </span>

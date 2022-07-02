@@ -1,6 +1,6 @@
 import React from "react";
-import "./spacex.scss";
 import cosmos from "../../assets/background/cosmos.png";
+import "./spacex.scss";
 
 function SpaceX() {
   return (

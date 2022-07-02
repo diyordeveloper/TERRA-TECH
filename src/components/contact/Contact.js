@@ -17,9 +17,9 @@ function Contact() {
     }
   };
   return (
-    <div className="contact_container height_">
+    <div className="contact_container height_" id="contact">
       <div className="container">
-        <div className="content_">
+        <div className="content_ page_padding">
           <span className="name_">{t("contact_page.link")}</span>
           <span className="title_">{t("contact_page.title")}</span>
           <div className="contain_">

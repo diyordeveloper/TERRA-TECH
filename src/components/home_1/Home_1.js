@@ -7,7 +7,7 @@ function Home_1() {
   const { t } = useTranslation();
 
   return (
-    <div className="home_container height_  ">
+    <div className="home_container height_  one_list_height" id="home">
       <Header />
       <div className="container ">
         <div className="content_">
@@ -19,7 +19,7 @@ function Home_1() {
           {t("home_page.body")}
              
           </span>
-          <BtnBgNone/>
+          <BtnBgNone/> 
         </div>
       </div>
     </div>

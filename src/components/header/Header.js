@@ -26,17 +26,17 @@ function Header() {
           </ul>
           <ul className="ul_">
             <li>
-              <a href="#" className="link_">
+              <a href="#about" className="link_">
                {t("navbar_links.1")}
               </a>
             </li>
             <li>
-              <a href="#" className="link_">
+              <a href="#service" className="link_">
               {t("navbar_links.2")}
               </a>
             </li>
             <li>
-              <a href="#" className="link_">
+              <a href="#contact" className="link_">
               {t("navbar_links.3")}
               </a>
             </li>

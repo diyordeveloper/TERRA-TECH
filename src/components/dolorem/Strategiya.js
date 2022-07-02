@@ -5,9 +5,9 @@ import { useTranslation } from "react-i18next";
 function Strategiya() {
   const { t } = useTranslation();
   return (
-    <div className="dolorem_container height_md">
+    <div className="dolorem_container  " id="strategiya">
       <div className="container">
-        <div className="content_">
+        <div className="content_ page_padding">
           <div className="block_ b_card">
             <div className="card_">
               <span className="number_">3,271.62</span>
@@ -25,8 +25,8 @@ function Strategiya() {
               <span className="number_">2K+</span>
               <span className="body_">{t("strategiya_page.strategiya_card.4")}</span>
             </div>
-            <div className="btn_gr">
-              <button className="btn_bg_ d-none dn_btn">Learn More</button>
+            <div className="btn_gr "> 
+              <button className="btn_bg_ d-none dn_btn">{t("learn_more_btn")}</button>
             </div>
           </div>
           <div className="block_ b_text">
@@ -47,7 +47,7 @@ function Strategiya() {
                 <span className="span">{t("strategiya_page.strategiya_ul_list.4")}</span>
               </li>
             </ul>
-            <BtnBg />
+            <button className="btn_bg_  db_btn">{t("learn_more_btn")}</button> 
           </div>
         </div>
       </div>

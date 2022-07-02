@@ -3,10 +3,10 @@
   "investitsiya_btn": "INVESTITSIYA",
   "learn_more_btn": "Ma'lumot olish",
   "submit":"YUBORISH",
-  "navbar_links": {
-    "1": "Bosh sahifa",
-    "2": "BIZ HAQIMIZDA",
-    "3": "Xizmatlar"
+  "navbar_links": { 
+    "1": "BIZ HAQIMIZDA",
+    "2": "Xizmatlar",
+    "3":"Aloqa"
   },
   "home_page": {
     "title": "Sayt test rejimida ishlamoqda !",
@@ -122,7 +122,12 @@
     "footer_links": {
       "1": "Bosh sahifa",
       "2": "BIZ HAQIMIZDA",
-      "3": "Xizmatlar"
+      "3": "Xizmatlar",
+      "4": "Maxsus Yo'limiz",
+      "5": "Strategiya",
+      "6": "Bizning Hamkorlik",
+      "7": "Aloqa"
+       
     },
     "body":"Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz."
   }

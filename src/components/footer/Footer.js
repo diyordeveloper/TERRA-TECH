@@ -1,5 +1,4 @@
 import React from "react";
-import "./footer.scss";
 import logo from "../../assets/logo_svg/logo.svg";
 import { useTranslation } from "react-i18next";
 
@@ -10,27 +9,51 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TelegramIcon from "@mui/icons-material/Telegram";
 
+import "./footer.scss";
 function Footer() {
   const { t } = useTranslation();
   return (
-    <div className="footer_container height_md">
+    <div className="footer_container ">
       <div className="container">
-        <div className="content_">
+        <div className="content_ footer_padding">
           <img src={logo} className={"logo_"} alt="Error!!!!" />
           <ul className="ul_">
             <li>
-              <a href="#" className="link_">
+              <a href="#home" className="link_">
                 {t("footer_page.footer_links.1")}
               </a>
             </li>
             <li>
-              <a href="#" className="link_">
+              <a href="#about" className="link_">
                 {t("footer_page.footer_links.2")}
               </a>
             </li>
             <li>
-              <a href="#" className="link_">
+              <a href="#service" className="link_">
                 {t("footer_page.footer_links.3")}
+              </a>
+            </li>
+            <li>
+              <a href="#special" className="link_">
+                {t("footer_page.footer_links.4")}
+              </a>
+            </li>
+            
+            <li>
+              <a href="#strategiya" className="link_">
+                {t("footer_page.footer_links.5")}
+              </a>
+            </li>
+            
+            <li>
+              <a href="#partners" className="link_">
+                {t("footer_page.footer_links.6")}
+              </a>
+            </li>
+            
+            <li>
+              <a href="#contact" className="link_">
+                {t("footer_page.footer_links.7")}
               </a>
             </li>
           </ul>

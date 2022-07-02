@@ -7,7 +7,7 @@
     url(../../assets/background/home_bg.jpg) no-repeat;
   background-size: cover;
   .content_ {
-    margin-top: 130px;
+    padding: 130px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,8 +33,8 @@
     background: linear-gradient(175deg, #0000005f, #1146a22c),
       url(../../assets/background/home_bg.jpg) no-repeat;
     background-size: cover;
-    .content_ {
-      margin-top: 100px;
+    .content_ {     padding: 110px 0;
+
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -64,7 +64,8 @@
       url(../../assets/background/home_bg.jpg) no-repeat;
     background-size: cover;
     .content_ {
-      margin-top: 100px;
+      padding: 130px 0;
+
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -92,7 +93,7 @@
       url(../../assets/background/home_bg.jpg) no-repeat;
     background-size: cover;
     .content_ {
-      margin-top: 100px;
+    padding: 130px 0; 
       display: flex;
       align-items: center;
       flex-direction: column;
