@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, createContext } from "react";
 import Home_1 from "./components/home_1/Home_1";
 import About from "./components/about/About";
 import Service from "./components/service/Service";
@@ -30,17 +30,23 @@ const language = [
   },
 ];
 function All() {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
   const currentLanguageCode = cookie.get("i18next") || "ru";
-  const currentLanguage = language.find((l) => l.code === currentLanguageCode); 
-  const [toggleLangMenu, setToggleLangMenu] = useState(false); 
+  const currentLanguage = language.find((l) => l.code === currentLanguageCode);
+  const [toggleLangMenu, setToggleLangMenu] = useState(false);
   const LangMenuToggle = () => {
     setToggleLangMenu(!toggleLangMenu);
   };
+
   useEffect(() => {
     document.body.dir = currentLanguage.dir || "ltr";
     document.title = t("app_title");
   }, [currentLanguage, t]);
+
+  function Toggle() {
+    setToggleLangMenu(false);
+  }
+
   return (
     <>
       <div className="language_" onClick={LangMenuToggle}>
@@ -67,7 +73,7 @@ function All() {
           </>
         ))}
       </div>
-      <div className="wrapper" onClick={() => setToggleLangMenu(false)}>
+      <div className="wrapper" onClick={Toggle}>
         <Home_1 />
         <About />
         <Service />

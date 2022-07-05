@@ -1,18 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../assets/logo_svg/logo.svg";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { useTranslation } from "react-i18next";
-
 import "./header.scss";
 function Header() {
-  const { t } = useTranslation();
   const [navClick, setNavClick] = useState(false);
+  const { t } = useTranslation();
   function onClickNav() {
     setNavClick(!navClick);
   }
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.screenY < 20) {
+        setNavClick(false);
+      }
+    });
+  }, []);
   return (
     <>
       <div className="container">
@@ -27,17 +33,17 @@ function Header() {
           <ul className="ul_">
             <li>
               <a href="#about" className="link_">
-               {t("navbar_links.1")}
+                {t("navbar_links.1")}
               </a>
             </li>
             <li>
               <a href="#service" className="link_">
-              {t("navbar_links.2")}
+                {t("navbar_links.2")}
               </a>
             </li>
             <li>
               <a href="#contact" className="link_">
-              {t("navbar_links.3")}
+                {t("navbar_links.3")}
               </a>
             </li>
             <li>
@@ -64,7 +70,7 @@ function Header() {
           </ul>
         </div>
         <div className={navClick ? "nav_menu active_" : "nav_menu"}>
-          <IconButton onClick={onClickNav} className="iconbutton_">
+          <IconButton className="iconbutton_" onClick={onClickNav}>
             <CloseIcon className="icon_" />
           </IconButton>
           <ul className="ul_logo">
@@ -76,23 +82,23 @@ function Header() {
           </ul>
           <ul className="ul_">
             <li>
-              <a href="#" className="link_">
-              {t("navbar_links.1")}
+              <a href="#about" className="link_">
+                {t("navbar_links.1")}
               </a>
             </li>
             <li>
-              <a href="#" className="link_">
-              {t("navbar_links.2")}
+              <a href="#service" className="link_">
+                {t("navbar_links.2")}
               </a>
             </li>
             <li>
-              <a href="#" className="link_">
-              {t("navbar_links.3")}
+              <a href="#contact" className="link_">
+                {t("navbar_links.3")}
               </a>
             </li>
             <li>
               <a href="#" className="btn_bg_">
-              {t("investitsiya_btn")}
+                {t("investitsiya_btn")}
               </a>
             </li>
           </ul>
