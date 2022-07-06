@@ -1,20 +1,23 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import BtnBg from "../btn/BtnBg";
+import { toast } from 'react-toastify';
 import "./contact.scss";
 function Contact() {
   const { t } = useTranslation();
-  const OnSubmitForm = (e) => {
-    e.preventDefault();
-    var name = e.currentTarget[0].value
-    var phone = e.target[1].value;
-    var email = e.target[2].value;
-    var textarea = e.target[3].value;
+  function OnSubmitForm(event) {
+    event.preventDefault();
+    let name = event.target[0].value;
+    let phone = event.target[1].value;
+    let email = event.target[2].value;
+    let textarea = event.target[3].value;
     console.log(name);
-    if (name == "" && phone == "" && email == "" && textarea == "") {
-      alert("s");
+    if (name !== "" , phone !== "" , email !== "" , textarea !== "") {
+      toast.success(t("toastify.success"))   
+    }else{ 
+      toast.error(t("toastify.error")) 
     }
-  };
+  }
   return (
     <div className="contact_container height_" id="contact">
       <div className="container">
@@ -22,27 +25,23 @@ function Contact() {
           <span className="name_">{t("contact_page.link")}</span>
           <span className="title_">{t("contact_page.title")}</span>
           <div className="contain_">
-            <form
-              id="formId"
-              onSubmit={OnSubmitForm}
-              className="form_"
-            >
+            <form onSubmit={OnSubmitForm} className="form_" id={"formId"}>
               <div className="block_">
                 <input
-                  type={"text"}
+                  type="text"
                   name="name"
                   placeholder={t("contact_page.contact.form_placeholder.1")}
                   className="input_ input_name"
                 />
                 <input
-                  type={"tel"}
+                  type="tel"
                   name="phone"
                   placeholder={t("contact_page.contact.form_placeholder.2")}
                   className="input_ input_phone"
                 />
 
                 <input
-                  type={"email"}
+                  type="email"
                   name="emil"
                   placeholder={t("contact_page.contact.form_placeholder.3")}
                   className="input_ input_email"
@@ -54,11 +53,7 @@ function Contact() {
                   placeholder={t("contact_page.contact.form_placeholder.4")}
                   className="textarea_ "
                 ></textarea>
-                <button
-                  form="formId"
-                  type={"button"}
-                  className="btn_bg_"
-                >
+                <button  className="btn_bg_" form={"formId"}>
                   {t("submit")}
                 </button>
               </div>

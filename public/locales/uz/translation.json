@@ -2,15 +2,19 @@
   "app_title": "Sarlavha - Terra Tech",
   "investitsiya_btn": "INVESTITSIYA",
   "learn_more_btn": "Ma'lumot olish",
-  "submit":"YUBORISH",
-  "navbar_links": { 
+  "submit": "YUBORISH",
+  "toastify": {
+    "success": "Yuborildi !",
+    "error": "Maydonni to'ldiring !"
+  },
+  "navbar_links": {
     "1": "BIZ HAQIMIZDA",
     "2": "Xizmatlar",
-    "3":"Aloqa"
+    "3": "Aloqa"
   },
   "home_page": {
-    "title": "Sayt test rejimida ishlamoqda !",
-    "body": "Orzuingizdagi biznesingizni yarating va biz bilan birgalikda uni yanada rivojlantiring.Siz shunchaki bizga ishongan holda maqsadlaringizni his qilsangiz bas. Buyuk maqsad albatta amalga oshadi!"
+    "title": "Постройте свой бизнес с идеальной стратегией !",
+    "body": "Orzuingizdagi biznesni biz bilan birgalikda rivojlantiring! Siz shunchaki bizga ishonsangiz bas, qolganini bizga qo‘yib bering! Bizning maqsad esa bitta, u ham bo‘lsa biznesingiz rivojini yuqori cho‘qqiga chiqarish! Biz sizning  biznes maqsadlaringizni qoʻllab-quvvatlash uchun ijobiy strategiya yaratishga intilamiz va kontentingizni qiziqarli qiladigan xizmatlardan daromadingizni oshirishga yordam beramiz !"
   },
   "about_page": {
     "link": "BIZ HAQIMIZDA",
@@ -100,21 +104,21 @@
       "body2": "Biz sizning biznes maqsadingizga yordam berish olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz."
     }
   },
-  "contact_page":{
+  "contact_page": {
     "link": "Aloqa",
     "title": "Sayt test rejimida ishlamoqda !",
-    "contact":{
-      "form_placeholder":{
-        "1":"Ismingiz",
-        "2":"Telefon raqamingiz",
-        "3":"Elektron pochtangiz",
-        "4":"Fikrlaringiz"
+    "contact": {
+      "form_placeholder": {
+        "1": "Ismingiz",
+        "2": "Telefon raqamingiz",
+        "3": "Elektron pochtangiz",
+        "4": "Fikrlaringiz"
       },
-      "text":{
-        "title":"Biz bilan bog'laning",
-        "job_time":"Ish vaqti :",
-        "tel":"Telefon raqam :",
-        "pochta":"Elektron pochta :"
+      "text": {
+        "title": "Biz bilan bog'laning",
+        "job_time": "Ish vaqti :",
+        "tel": "Telefon raqam :",
+        "pochta": "Elektron pochta :"
       }
     }
   },
@@ -127,8 +131,7 @@
       "5": "Strategiya",
       "6": "Bizning Hamkorlik",
       "7": "Aloqa"
-       
     },
-    "body":"Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz."
+    "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz."
   }
 }

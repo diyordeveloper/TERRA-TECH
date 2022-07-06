@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 import Uzbekistan from "./assets/logo_svg/uzbekistan.png";
 import Russia from "./assets/logo_svg/russia.png";
 import Contact from "./components/contact/Contact";
-import Strategiya from "./components/dolorem/Strategiya";
+import Strategiya from "./components/strategiya/Strategiya";
 const language = [
   {
     id: 1,
@@ -56,21 +56,19 @@ function All() {
         className={toggleLangMenu ? "lang_menu show_lang_menu " : "lang_menu"}
       >
         {language.map(({ id, code, name, images }) => (
-          <>
-            <a
-              key={id}
-              href="#"
-              onClick={() => i18next.changeLanguage(code)}
-              className={
-                code === currentLanguageCode
-                  ? "lang_btn active_lang"
-                  : "lang_btn "
-              }
-            >
-              <img src={images} alt={code} />
-              {name}
-            </a>
-          </>
+          <a
+            key={id}
+            href="#"
+            onClick={() => i18next.changeLanguage(code)}
+            className={
+              code === currentLanguageCode
+                ? "lang_btn active_lang"
+                : "lang_btn "
+            }
+          >
+            <img src={images}   alt={code} />
+            {name}
+          </a>
         ))}
       </div>
       <div className="wrapper" onClick={Toggle}>
