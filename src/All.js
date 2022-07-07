@@ -37,7 +37,6 @@ function All() {
   const LangMenuToggle = () => {
     setToggleLangMenu(!toggleLangMenu);
   };
-
   useEffect(() => {
     document.body.dir = currentLanguage.dir || "ltr";
     document.title = t("app_title");
@@ -66,7 +65,7 @@ function All() {
                 : "lang_btn "
             }
           >
-            <img src={images}   alt={code} />
+            <img src={images} alt={code} />
             {name}
           </a>
         ))}

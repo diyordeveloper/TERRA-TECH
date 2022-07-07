@@ -1,21 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { useTranslation } from "react-i18next";
 import BtnBg from "../btn/BtnBg";
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 import "./contact.scss";
+import { Context } from "../../App";
 function Contact() {
+  const getContext = useContext(Context);
+  const { api, setApi } = getContext;
   const { t } = useTranslation();
-  function OnSubmitForm(event) {
-    event.preventDefault();
-    let name = event.target[0].value;
-    let phone = event.target[1].value;
-    let email = event.target[2].value;
-    let textarea = event.target[3].value;
-    console.log(name);
-    if (name !== "" , phone !== "" , email !== "" , textarea !== "") {
-      toast.success(t("toastify.success"))   
-    }else{ 
-      toast.error(t("toastify.error")) 
+  function OnSubmitForm(e) {
+    e.preventDefault();
+    const name = e.target[0].value;
+    const phone = e.target[1].value;
+    const email = e.target[2].value;
+    const textarea = e.target[3].value;
+    const a = api;
+    if (name === "" && phone === "" && email === "" && textarea === "") {
+      toast.error(t("toastify.error"));
+    } else {
+      a.push({ id: a.length + 1, name:name, phone:phone, email:email, textarea:textarea });
+      setApi({ api: a });
+      console.log(a);
+      toast.success(t("toastify.success"));
     }
   }
   return (
@@ -53,7 +59,7 @@ function Contact() {
                   placeholder={t("contact_page.contact.form_placeholder.4")}
                   className="textarea_ "
                 ></textarea>
-                <button  className="btn_bg_" form={"formId"}>
+                <button className="btn_bg_" form={"formId"}>
                   {t("submit")}
                 </button>
               </div>
