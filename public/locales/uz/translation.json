@@ -1,6 +1,6 @@
 {
   "app_title": "Sarlavha - Terra Tech",
-  "investitsiya_btn": "INVESTITSIYA",
+  "investitsiya_btn": "Aloqa",
   "learn_more_btn": "Ma'lumot olish",
   "submit": "YUBORISH",
   "toastify": {
@@ -10,7 +10,7 @@
   "navbar_links": {
     "1": "BIZ HAQIMIZDA",
     "2": "Xizmatlar",
-    "3": "Aloqa"
+    "3": "MAXSUS YO'LIMIZ"
   },
   "home_page": {
     "title": "O‘z biznesingizni mukammal strategiya orqali yarating!",

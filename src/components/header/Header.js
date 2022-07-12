@@ -5,6 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { useTranslation } from "react-i18next";
 import "./header.scss";
+import { Link } from "react-router-dom";
 function Header() {
   const [navClick, setNavClick] = useState(false);
   const { t } = useTranslation();
@@ -25,9 +26,9 @@ function Header() {
         <div className={"nav_"}>
           <ul className="ul_logo">
             <li>
-              <a href="#">
+              <Link to={'/'}>
                 <img src={logo} className="logo" alt="Error" />
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="ul_">
@@ -42,12 +43,12 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#contact" className="link_">
+              <a href="#special" className="link_">
                 {t("navbar_links.3")}
               </a>
             </li>
             <li>
-              <a href="#" className="btn_bg_">
+              <a href="#contact" className="btn_bg_">
                 {t("investitsiya_btn")}
               </a>
             </li>
@@ -56,9 +57,9 @@ function Header() {
         <div className="nav_bar">
           <ul className="ul_logo">
             <li>
-              <a href="#">
+              <Link to={'/'}>
                 <img src={logo} className="logo" alt="Error" />
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="ul_">
@@ -75,9 +76,9 @@ function Header() {
           </IconButton>
           <ul className="ul_logo">
             <li>
-              <a href="#">
+              <Link to={'/'}>
                 <img src={logo} className="logo" alt="Error" />
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="ul_">
@@ -92,12 +93,12 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#contact" className="link_">
+              <a href="#special" className="link_">
                 {t("navbar_links.3")}
               </a>
             </li>
             <li>
-              <a href="#" className="btn_bg_">
+              <a href="#contact" className="btn_bg_">
                 {t("investitsiya_btn")}
               </a>
             </li>
