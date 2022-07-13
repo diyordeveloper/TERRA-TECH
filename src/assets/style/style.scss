@@ -1,6 +1,6 @@
 :root {
   --white: #ffffff;
-  --btn-bg: #2befc8;
+  --btn-bg: #11469C;
 } 
 .wrapper {
   width: 100%;
@@ -33,19 +33,19 @@
   color: var(--white);
   padding: 10px 40px;
   border-radius: 100px;
-  border: 2px solid #2befc8;
+  border: 2px solid #11469C;
   transition: 0.3s;
   &:hover {
-    background: #2befc80f;
-    color: var(--btn-bg);
+    background: #11469c19;
+    color: var(--white);
   }
 }
 .btn_bg_transparent {
   text-transform: uppercase;
-  background: #2befc80f;
+  background: #11469C0f;
   padding: 10px 40px;
   border-radius: 100px;
-  border: 2px solid #2befc8;
+  border: 2px solid #11469C;
   color: var(--btn-bg);
   transition: 0.3s;
   &:hover {
@@ -95,20 +95,20 @@
     background: var(--btn-bg);
     padding: 8px 30px;
     border-radius: 100px;
-    border: 2px solid #2befc8;
+    border: 2px solid #11469C;
     transition: 0.3s;
     &:hover {
-      background: #2befc80f;
-      color: var(--btn-bg);
+      background: #11469C0f;
+      color: var(--white);
     }
   }
   .btn_bg_transparent {
     width: 100%;
     text-transform: uppercase;
-    background: #2befc80f;
+    background: #11469C0f;
     padding: 8px 30px;
     border-radius: 100px;
-    border: 2px solid #2befc8;
+    border: 2px solid #11469C;
     color: var(--btn-bg);
     transition: 0.3s;
     &:hover {
@@ -134,11 +134,11 @@
     background: var(--btn-bg);
     padding: 8px 30px;
     border-radius: 100px;
-    border: 2px solid #2befc8;
+    border: 2px solid #11469C;
     transition: 0.3s;
     &:hover {
-      background: #2befc80f;
-      color: var(--btn-bg);
+      background: #11469C0f;
+      color: var(--white);
     }
   }
   .btn_bg_transparent {
@@ -146,10 +146,10 @@
 
     width: 100%;
     text-transform: uppercase;
-    background: #2befc80f;
+    background: #11469C0f;
     padding: 8px 30px;
     border-radius: 100px;
-    border: 2px solid #2befc8;
+    border: 2px solid #11469C;
     color: var(--btn-bg);
     transition: 0.3s;
     &:hover {

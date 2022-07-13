@@ -48,7 +48,7 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#contact" className="btn_bg_">
+              <a href="#contact" className="btn_bg_transparent">
                 {t("investitsiya_btn")}
               </a>
             </li>
@@ -98,7 +98,7 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#contact" className="btn_bg_">
+              <a href="#contact" className="btn_bg_transparent">
                 {t("investitsiya_btn")}
               </a>
             </li>

@@ -26,7 +26,7 @@ function Strategiya() {
               <span className="body_">{t("strategiya_page.strategiya_card.4")}</span>
             </div>
             <div className="btn_gr "> 
-              <button className="btn_bg_ d-none dn_btn">{t("learn_more_btn")}</button>
+              <button className="btn_bg_  dn_btn">{t("learn_more_btn")}</button>
             </div>
           </div>
           <div className="block_ b_text">

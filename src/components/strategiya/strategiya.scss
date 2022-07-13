@@ -1,6 +1,6 @@
 :root {
   --white: #ffffff;
-  --btn-bg: #2befc8;
+  --btn-bg: #11469C;
 }
 .dolorem_container {
   background: linear-gradient(
@@ -20,6 +20,9 @@
     justify-content: space-between;
     .block_ { 
       width: 46%;
+    }
+    .btn_gr {
+      display: none ; 
     }
     .b_card {
       display: flex;
