@@ -38,19 +38,19 @@ function Footer() {
                 {t("footer_page.footer_links.4")}
               </a>
             </li>
-            
+
             <li>
               <a href="#strategiya" className="link_">
                 {t("footer_page.footer_links.5")}
               </a>
             </li>
-            
+
             <li>
               <a href="#partners" className="link_">
                 {t("footer_page.footer_links.6")}
               </a>
             </li>
-            
+
             <li>
               <a href="#contact" className="link_">
                 {t("footer_page.footer_links.7")}
@@ -80,7 +80,7 @@ function Footer() {
       <hr className="hr_" />
       <div className="div_link">
         <a href="#" className="footer_link">
-          Copyright 2022 Planet Roc. All rights reserved.
+          Copyright 2022 Terra Tech . All rights reserved.
         </a>
       </div>
     </div>
