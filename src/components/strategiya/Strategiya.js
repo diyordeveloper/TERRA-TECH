@@ -10,19 +10,19 @@ function Strategiya() {
         <div className="content_ page_padding">
           <div className="block_ b_card">
             <div className="card_">
-              <span className="number_">3,271.62</span>
+              <span className="number_">500$</span>
               <span className="body_">{t("strategiya_page.strategiya_card.1")}</span>
             </div>
             <div className="card_">
-              <span className="number_">2M+</span>
+              <span className="number_">800$</span>
               <span className="body_">{t("strategiya_page.strategiya_card.2")}</span>
             </div>
             <div className="card_">
-              <span className="number_">1344</span>
+              <span className="number_">1000$</span>
               <span className="body_">{t("strategiya_page.strategiya_card.3")}</span>
             </div>
             <div className="card_">
-              <span className="number_">2K+</span>
+              <span className="number_">1200$</span>
               <span className="body_">{t("strategiya_page.strategiya_card.4")}</span>
             </div>
             <div className="btn_gr "> 

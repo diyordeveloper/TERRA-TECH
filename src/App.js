@@ -4,6 +4,8 @@ import All from "./All";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Api from "./Api/Api";
+import "aos/dist/aos.css";
+
 export const Context = createContext();
 
 function App() {

@@ -9,50 +9,50 @@
   },
   "navbar_links": {
     "1": "BIZ HAQIMIZDA",
-    "2": "Xizmatlar",
-    "3": "MAXSUS YO'LIMIZ"
+    "2": "Bizning Xizmatlar",
+    "3": "Bizning Yo'limiz"
   },
   "home_page": {
-    "title": "O‘z biznesingizni mukammal strategiya orqali yarating!",
-    "body": "Orzuingizdagi biznesni biz bilan birgalikda rivojlantiring! Siz shunchaki bizga ishonsangiz bas, qolganini bizga qo‘yib bering! Bizning maqsad esa bitta, u ham bo‘lsa biznesingiz rivojini yuqori cho‘qqiga chiqarish! Biz sizning  biznes maqsadlaringizni qoʻllab-quvvatlash uchun ijobiy strategiya yaratishga intilamiz va kontentingizni qiziqarli qiladigan xizmatlardan daromadingizni oshirishga yordam beramiz !"
+    "title": "Biznesingizni ideal strategiya asosida quring!",
+    "body": "Biz bilan orzuingizdagi biznesni yarating! Sizdan kerak bo’ladigani faqat bizga ishonch, qolganini o’zimizga qo’yib bering! Bizning maqsadimiz bitta, va u – sizning biznesingiz rivojini oshirishdir! Biz biznes maqsadlaringizni qo’llab-quvvatlash uchun ijobiy strategiya yaratish va kontentingizni qiziqarli qiladigan xizmatlar orqali daromadingizni oshirishga yordam berishni maqsad qilganmiz!"
   },
   "about_page": {
     "link": "BIZ HAQIMIZDA",
-    "title": "Sayt test rejimida ishlamoqda !",
-    "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz."
+    "title": "TERRA TECH IT-COMPANY",
+    "body": "Biznesingizga zamonaviy digital marketing instrumentlarini qo'llagan holda yangi mijozlar oqimini olib keluvchi, mijozlar ishonchini oshiruvchi kompaniya hisoblanadi. Biz sizning biznesingiz barqaror rivojlanishi, raqobatbardosh bo’lishi hamda potensial mijozlarni jalb qilishi ustida ishlaymiz. Biz biznes maqsadlaringizni qo'llab-quvvatlash uchun ijobiy strategiya yaratish va kontentingizni qiziqarli qiladigan xizmatlar orqali daromad olishga yordam berishni maqsad qilganmiz."
   },
   "service_page": {
-    "link": "Xizmatlar",
-    "title": "Sifatli va tezkor harakat",
+    "link": "Bizning Xizmatlar",
+    "title": "Sifat va tezlik – bizning shior",
     "services": {
       "1": {
-        "title": "Ijtimoiy tarmoqlarni boshqarish",
-        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+        "title": "SMM",
+        "body": "Ijtimoiy tarmoqlarda marketing. Instagram va facebookda mijozlar oqimini tashkil etish, mahsulot yoki xizmatingizga potensial mijozlarni jalb qilish, ijtimoiy tarmoqlarda biznesingizni tanitish."
       },
       "2": {
-        "title": "Qidiruv tizimi, optimizatsiya qilish",
-        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+        "title": "Web-sayt",
+        "body": "Biz korporativ mijozlar va internet magazinlar uchun web-sayt ishlab chiqamiz. Bunga quyidagilar kiradi: tillar soni; dizayn murakkablik darajasi; saytning mobil shakli; mahsulot/xizmatlar katalogi."
       },
       "3": {
-        "title": "Dizayn",
-        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+        "title": "Mobil ilovalar",
+        "body": "Biz biznesingiz rivojlanishi, savdo oqimi o’sishi uchun zamonaviy mobil ilova ham yaratib beramiz"
       },
       "4": {
-        "title": "Web-sahifalar",
-        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+        "title": "Shaxsiy brend",
+        "body": "Shaxsiy brendingiz kuchli bo’lsa, sizning mahsulot/xizmatingizga ishonch yanada ortadi. Biz sizga bunda yordam beramiz."
       },
       "5": {
-        "title": "Mobil dasturlar",
-        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+        "title": "Targeting",
+        "body": "Target reklamada biznes, tovar, xizmatga qiziqadigan auditoriya jalb qilinadi, yoshi, qiziqishlari, hududi – barcha-barchasi tanlanib reklama qilinadi!"
       },
       "6": {
-        "title": "Krossplatformalar",
-        "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz."
+        "title": "Kontekstli reklama",
+        "body": "Kontekstli reklama - bu foydalanuvchining qidiruv tizimidagi so'roviga muvofiq matn ko'rinishida ko'rsatiladigan Internet reklama turlaridan biri. Reklamalarni tanlash va namoyish qilish ularning reytingini baholashga asoslanadi."
       }
     }
   },
   "special_page": {
-    "link": "MAXSUS YO'LIMIZ",
+    "link": "Bizning yo'limiz",
     "title": "Sayt test rejimida ishlamoqda !",
     "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz.",
     "special": {
@@ -79,20 +79,20 @@
     }
   },
   "strategiya_page": {
-    "link": "Strategiya",
-    "title": "Sayt test rejimida ishlamoqda !",
-    "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz.",
+    "link": "Bizning Tariflar",
+    "title": "Qo’shimcha xizmatlar",
+    "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy tariflar yaratish bilan harakat qilamiz.",
     "strategiya_ul_list": {
-      "1": "Biz sizning biznes maqsadingizga yordam berish uchun",
-      "2": "Biz sizning biznes maqsadingizga yordam berish uchun",
-      "3": "Biz sizning biznes maqsadingizga yordam berish uchun",
-      "4": "Biz sizning biznes maqsadingizga yordam berish uchun"
+      "1": "ADMIN PANELISIZ PORTFOLIO - 70-150 $",
+      "2": "ADMIN PANELI BILAN PORTFOLIO - 200$ DAN BOSHLAB",
+      "3": "INTERNET MAGAZIN - 500-600 $",
+      "4": "MOBIL ILOVALAR - 1000-5000$"
     },
     "strategiya_card": {
-      "1": "Biz sizning biznes maqsadingizga yordam berish uchun",
-      "2": "Biz sizning biznes maqsadingizga yordam berish uchun",
-      "3": "Biz sizning biznes maqsadingizga yordam berish uchun",
-      "4": "Biz sizning biznes maqsadingizga yordam berish uchun"
+      "1": "START (SMM / TARGET)",
+      "2": "MIDDLE (SMM / TARGET / WEB-SAYT)",
+      "3": "PREMIUM (SMM / TARGET / WEB-SAYT / KONTEKST REKLAMA)",
+      "4": "PLATINUM (SMM / TARGET / WEB-SAYT / KONTEKST REKLAMA / MARKETING ANALIZ)"
     }
   },
   "partners_page": {
@@ -106,19 +106,19 @@
   },
   "contact_page": {
     "link": "Aloqa",
-    "title": "Sayt test rejimida ishlamoqda !",
+    "title": "SAVOLLARINGIZ BORMI ?",
     "contact": {
       "form_placeholder": {
         "1": "Ismingiz",
         "2": "Telefon raqamingiz",
         "3": "Elektron pochtangiz",
-        "4": "Fikrlaringiz"
+        "4": "Fikrlaringiz bilan bo’lishing"
       },
       "text": {
         "title": "Biz bilan bog'laning",
         "job_time": "Ish vaqti :",
         "tel": "Telefon raqam :",
-        "pochta": "Elektron pochta :"
+        "pochta": "Instagram sahifa :"
       }
     }
   },
@@ -126,9 +126,9 @@
     "footer_links": {
       "1": "Bosh sahifa",
       "2": "BIZ HAQIMIZDA",
-      "3": "Xizmatlar",
-      "4": "Maxsus Yo'limiz",
-      "5": "Strategiya",
+      "3": "Bizning Xizmatlar",
+      "4": "Bizning Yo'limiz",
+      "5": "Bizning Tariflar",
       "6": "Bizning Hamkorlik",
       "7": "Aloqa"
     },

@@ -1,18 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BtnBg from "../btn/BtnBg";
 import "./special.scss";
+import AOS from "aos";
 import { useTranslation } from "react-i18next";
 function Special() {
   const { t } = useTranslation();
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="special_container height_" id="special">
       <div className="container">
         <div className="content_ page_padding">
-          <span className="name_">{t("special_page.link")}</span>
-          <span className="title_">{t("special_page.title")}</span>
+          <span className="name_" data-aos="zoom-in-up" data-aos-duration="900">{t("special_page.link")}</span>
+          <span className="title_" data-aos="zoom-in-up" data-aos-duration="900">{t("special_page.title")}</span>
           <div className="contain_">
             <div className="block_ text_blok">
-              <span className="titl">{t("special_page.body")}</span>
+              <span className="titl" data-aos="zoom-in-left" data-aos-duration="900"> {t("special_page.body")}</span>
               <div className="list_">
                 <div className="box_">
                   <span className="names">

@@ -40,7 +40,7 @@
         justify-content: center;
         .moon_img {
           opacity: 0.8;
-          width: 580px;
+          width: 650px;
         }
       }
       .box {
@@ -49,7 +49,7 @@
         .text_ {
           display: flex;
           flex-direction: column;
-          width: 300px;
+          width: 350px;
           .titl {
             color: var(--white);
             font-size: 17px;
@@ -94,11 +94,11 @@
 
       .box_2 {
         left: -220px;
-        top: 150px;
+        top: 140px;
       }
       .box_3 {
         left: -160px;
-        bottom: 0;
+        bottom: 37px;
       }
       .box_11 {
         right: -160px;
@@ -107,7 +107,7 @@
 
       .box_22 {
         right: -220px;
-        top: 150px;
+        top: 140px;
       }
       .box_33 {
         right: -160px;
@@ -118,7 +118,124 @@
 }
 
 
-@media screen and (max-width:1100px){
+// @media screen and (max-width:1100px){
+//   .service_container {
+//     background: linear-gradient(
+//         170deg,
+//         #000000,
+//         #000000ab,
+//         #0000007e,
+//         #0f514a38,
+//         #06091ec1,
+//         #03040ae2,
+//         #010205
+//       ),
+//       url(../../assets/background/bg.jpg) center no-repeat;
+//     background-size: cover;
+//     .content_ {
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       flex-direction: column;
+//       .name_ {
+        
+//         color: var(--btn-bg);
+//         text-transform: uppercase;
+//         font-size: 18px;
+//       }
+//       .title_ {
+//         text-align: center;
+//         font-size: 30px;
+//         color: var(--white);
+//         margin-top: 10px;
+//       }
+//       .moon {
+//         margin-top: 20px;
+//         margin-bottom: 20px;
+//         .moon_kub {
+//           position: relative;
+//           display: flex;
+//           justify-content: center;
+//           .moon_img {
+//             opacity: 0.8;
+//             width: 560px;
+//           }
+//         }
+//         .box {
+//           position: absolute;
+//           display: flex;
+//           .text_ {
+//             display: flex;
+//             flex-direction: column;
+//             width: 250px;
+//             .titl {
+//               color: var(--white);
+//               font-size: 14px;
+//             }
+//             .bady {
+//               margin-top: 3px;
+//               color: #d1eaee;
+//               font-size: 11px;
+//             }
+//           }
+//           .end_ {
+//             text-align: end;
+//           }
+//           .start_ {
+//             text-align: start;
+//           }
+//           .k_left{
+//             margin: 0px 0 0 15px;
+  
+//           }
+//           .k_right{
+//             margin: 0px 15px 0 0;
+//           }
+//           .kub {
+//             width: 60px;
+//             height: 60px;
+//             border-radius: 20px;
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             background: #181043;
+//             .bitcoin {
+//               max-width: 60%;
+//             }
+//           }
+//         }
+  
+//         .box_1 {
+//           left: -90px;
+//           top: 0;
+//         }
+  
+//         .box_2 {
+//           left: -150px;
+//           top: 150px;
+//         }
+//         .box_3 {
+//           left: -90px;
+//           bottom: 0;
+//         }
+//         .box_11 {
+//           right: -90px;
+//           top: 0;
+//         }
+  
+//         .box_22 {
+//           right: -150px;
+//           top: 150px;
+//         }
+//         .box_33 {
+//           right: -90px;
+//           bottom: 0;
+//         }
+//       }
+//     }
+//   }
+// }
+@media screen and (max-width:1140px){
   .service_container {
     background: linear-gradient(
         170deg,
@@ -137,125 +254,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      .name_ {
-        
-        color: var(--btn-bg);
-        text-transform: uppercase;
-        font-size: 18px;
-      }
-      .title_ {
-        text-align: center;
-        font-size: 30px;
-        color: var(--white);
-        margin-top: 10px;
-      }
-      .moon {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        .moon_kub {
-          position: relative;
-          display: flex;
-          justify-content: center;
-          .moon_img {
-            opacity: 0.8;
-            width: 560px;
-          }
-        }
-        .box {
-          position: absolute;
-          display: flex;
-          .text_ {
-            display: flex;
-            flex-direction: column;
-            width: 250px;
-            .titl {
-              color: var(--white);
-              font-size: 14px;
-            }
-            .bady {
-              margin-top: 3px;
-              color: #d1eaee;
-              font-size: 11px;
-            }
-          }
-          .end_ {
-            text-align: end;
-          }
-          .start_ {
-            text-align: start;
-          }
-          .k_left{
-            margin: 0px 0 0 15px;
-  
-          }
-          .k_right{
-            margin: 0px 15px 0 0;
-          }
-          .kub {
-            width: 60px;
-            height: 60px;
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #181043;
-            .bitcoin {
-              max-width: 60%;
-            }
-          }
-        }
-  
-        .box_1 {
-          left: -90px;
-          top: 0;
-        }
-  
-        .box_2 {
-          left: -150px;
-          top: 150px;
-        }
-        .box_3 {
-          left: -90px;
-          bottom: 0;
-        }
-        .box_11 {
-          right: -90px;
-          top: 0;
-        }
-  
-        .box_22 {
-          right: -150px;
-          top: 150px;
-        }
-        .box_33 {
-          right: -90px;
-          bottom: 0;
-        }
-      }
-    }
-  }
-}
-@media screen and (max-width:900px){
-  .service_container {
-    background: linear-gradient(
-        170deg,
-        #000000,
-        #000000ab,
-        #0000007e,
-        #0f514a38,
-        #06091ec1,
-        #03040ae2,
-        #010205
-      ),
-      url(../../assets/background/bg.jpg) center no-repeat;
-    background-size: cover;
-    .content_ {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      .name_ {
-        
+      .name_ { 
         color: var(--btn-bg);
         text-transform: uppercase;
         font-size: 18px;
@@ -285,10 +284,11 @@
           width: 48%;
           position: inherit;
           display: flex;
+          margin-bottom: 30px;
           .text_ {
             display: flex;
             flex-direction: column;
-            width: 250px;
+            width: 360px;
             .titl {
               color: var(--white);
               font-size: 18px;

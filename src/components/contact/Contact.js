@@ -86,8 +86,8 @@ function Contact() {
                 <span className="title_3">
                   {t("contact_page.contact.text.pochta")}
                 </span>
-                <a href="email:terra_tech@gmail.com" className="email_time">
-                  terra_tech@gmail.com
+                <a href="https://www.instagram.com/terra_techcomp" className="email_time">
+                https://www.instagram.com/terra_techcomp 
                 </a>
               </div>
             </div>
