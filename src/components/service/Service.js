@@ -16,7 +16,7 @@ function Service() {
     <div className="service_container height_" id="service">
       <div className="container">
         <div className="content_ page_padding">
-          <span className="name_" data-aos="zoom-in-up" data-aos-duration="900">{t("service_page.link")}</span>
+          <span className="name_" data-aos="zoom-in-up" data-aos-duration="700">{t("service_page.link")}</span>
           <span className="title_"  data-aos="zoom-in-up" data-aos-duration="900">
           {t("service_page.title")}
           </span>

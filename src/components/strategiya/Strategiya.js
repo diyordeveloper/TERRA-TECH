@@ -1,53 +1,112 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BtnBg from "../btn/BtnBg";
 import "./strategiya.scss";
 import { useTranslation } from "react-i18next";
+import Aos from "aos";
 function Strategiya() {
   const { t } = useTranslation();
+  useEffect(() => {
+    Aos.init();
+  });
   return (
     <div className="dolorem_container  " id="strategiya">
       <div className="container">
         <div className="content_ page_padding">
           <div className="block_ b_card">
-            <div className="card_">
+            <div
+              className="card_"
+              data-aos="zoom-in-up"
+              data-aos-duration="900"
+            >
               <span className="number_">500$</span>
-              <span className="body_">{t("strategiya_page.strategiya_card.1")}</span>
+              <span className="body_">
+                {t("strategiya_page.strategiya_card.1")}
+              </span>
             </div>
-            <div className="card_">
+            <div
+              className="card_"
+              data-aos="zoom-in-up"
+              data-aos-duration="900"
+            >
               <span className="number_">800$</span>
-              <span className="body_">{t("strategiya_page.strategiya_card.2")}</span>
+              <span className="body_">
+                {t("strategiya_page.strategiya_card.2")}
+              </span>
             </div>
-            <div className="card_">
+            <div
+              className="card_"
+              data-aos="zoom-in-up"
+              data-aos-duration="900"
+            >
               <span className="number_">1000$</span>
-              <span className="body_">{t("strategiya_page.strategiya_card.3")}</span>
+              <span className="body_">
+                {t("strategiya_page.strategiya_card.3")}
+              </span>
             </div>
-            <div className="card_">
+            <div
+              className="card_"
+              data-aos="zoom-in-up"
+              data-aos-duration="900"
+            >
               <span className="number_">1200$</span>
-              <span className="body_">{t("strategiya_page.strategiya_card.4")}</span>
+              <span className="body_">
+                {t("strategiya_page.strategiya_card.4")}
+              </span>
             </div>
-            <div className="btn_gr "> 
+            <div
+              className="btn_gr "
+              data-aos="zoom-in-up"
+              data-aos-duration="900"
+            >
               <button className="btn_bg_  dn_btn">{t("learn_more_btn")}</button>
             </div>
           </div>
           <div className="block_ b_text">
-            <span className="name_">{t("strategiya_page.link")}</span>
-            <span className="title_">{t("strategiya_page.title")}</span>
-            <div className="body_">{t("strategiya_page.body")}</div>
+            <span
+              className="name_"
+              data-aos="zoom-in-left"
+              data-aos-duration="700"
+            >
+              {t("strategiya_page.link")}
+            </span>
+            <span
+              className="title_"
+              data-aos="zoom-in-left"
+              data-aos-duration="800"
+            >
+              {t("strategiya_page.title")}
+            </span>
+            <div
+              className="body_"
+              data-aos="zoom-in-left"
+              data-aos-duration="900"
+            >
+              {t("strategiya_page.body")}
+            </div>
             <ul className="ul_">
-              <li>
-                <span className="span">{t("strategiya_page.strategiya_ul_list.1")}</span>
+              <li data-aos="zoom-in-left" data-aos-duration="900">
+                <span className="span">
+                  {t("strategiya_page.strategiya_ul_list.1")}
+                </span>
               </li>
-              <li>
-                <span className="span">{t("strategiya_page.strategiya_ul_list.2")}</span>
+              <li data-aos="zoom-in-left" data-aos-duration="900">
+                <span className="span">
+                  {t("strategiya_page.strategiya_ul_list.2")}
+                </span>
               </li>
-              <li>
-                <span className="span">{t("strategiya_page.strategiya_ul_list.3")}</span>
+              <li data-aos="zoom-in-left" data-aos-duration="900">
+                <span className="span">
+                  {t("strategiya_page.strategiya_ul_list.3")}
+                </span>
               </li>
-              <li>
-                <span className="span">{t("strategiya_page.strategiya_ul_list.4")}</span>
+              <li data-aos="zoom-in-left" data-aos-duration="900">
+                <span className="span">
+                  {t("strategiya_page.strategiya_ul_list.4")}
+                </span>
               </li>
             </ul>
-            <button className="btn_bg_  db_btn">{t("learn_more_btn")}</button> 
+            <button className="btn_bg_  db_btn" data-aos="zoom-in-left"
+          data-aos-duration="900">{t("learn_more_btn")}</button>
           </div>
         </div>
       </div>
