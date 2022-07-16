@@ -1,6 +1,6 @@
 :root {
   --white: #ffffff;
-  --btn-bg: #11469C;
+  --btn-bg: #11469c;
 }
 .service_container {
   background: linear-gradient(
@@ -20,8 +20,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    .name_ { 
-      color: var(--btn-bg);
+    .name_ {
+      color: var(--white);
       text-transform: uppercase;
       font-size: 20px;
     }
@@ -66,11 +66,10 @@
         .start_ {
           text-align: start;
         }
-        .k_left{
+        .k_left {
           margin: 5px 0 0 20px;
-
         }
-        .k_right{
+        .k_right {
           margin: 5px 20px 0 0;
         }
         .kub {
@@ -117,7 +116,6 @@
   }
 }
 
-
 // @media screen and (max-width:1100px){
 //   .service_container {
 //     background: linear-gradient(
@@ -138,8 +136,8 @@
 //       justify-content: center;
 //       flex-direction: column;
 //       .name_ {
-        
-//         color: var(--btn-bg);
+
+//  --white(--btn-bg);
 //         text-transform: uppercase;
 //         font-size: 18px;
 //       }
@@ -186,7 +184,7 @@
 //           }
 //           .k_left{
 //             margin: 0px 0 0 15px;
-  
+
 //           }
 //           .k_right{
 //             margin: 0px 15px 0 0;
@@ -204,12 +202,12 @@
 //             }
 //           }
 //         }
-  
+
 //         .box_1 {
 //           left: -90px;
 //           top: 0;
 //         }
-  
+
 //         .box_2 {
 //           left: -150px;
 //           top: 150px;
@@ -222,7 +220,7 @@
 //           right: -90px;
 //           top: 0;
 //         }
-  
+
 //         .box_22 {
 //           right: -150px;
 //           top: 150px;
@@ -235,7 +233,7 @@
 //     }
 //   }
 // }
-@media screen and (max-width:1140px){
+@media screen and (max-width: 1140px) {
   .service_container {
     background: linear-gradient(
         170deg,
@@ -254,8 +252,8 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      .name_ { 
-        color: var(--btn-bg);
+      .name_ {
+        color: var(--white);
         text-transform: uppercase;
         font-size: 18px;
       }
@@ -305,10 +303,10 @@
           .start_ {
             text-align: start;
           }
-          .k_left{
+          .k_left {
             margin: 0px 15px 0 0;
           }
-          .k_right{
+          .k_right {
             margin: 0px 15px 0 0;
           }
           .kub {
@@ -324,31 +322,30 @@
             }
           }
         }
-  
-        .box_1 { 
-          flex-direction: row-reverse; 
+
+        .box_1 {
+          flex-direction: row-reverse;
         }
-  
+
         .box_2 {
-          flex-direction: row-reverse; 
+          flex-direction: row-reverse;
         }
         .box_3 {
-          flex-direction: row-reverse; 
+          flex-direction: row-reverse;
         }
-        .box_11 { 
+        .box_11 {
         }
-  
-        .box_22 { 
+
+        .box_22 {
         }
-        .box_33 { 
+        .box_33 {
         }
       }
     }
   }
 }
 
-
-@media screen and (max-width:772px){
+@media screen and (max-width: 772px) {
   .service_container {
     background: linear-gradient(
         170deg,
@@ -368,8 +365,7 @@
       justify-content: center;
       flex-direction: column;
       .name_ {
-        
-        color: var(--btn-bg);
+        color: var(--white);
         text-transform: uppercase;
         font-size: 18px;
       }
@@ -381,12 +377,12 @@
       }
       .moon {
         margin-top: 30px;
-        margin-bottom:inherit;
+        margin-bottom: inherit;
         .moon_kub {
           position: inherit;
           display: flex;
           align-items: center;
-          justify-content: space-between; 
+          justify-content: space-between;
           flex-direction: column;
           .moon_img {
             opacity: 0.8;
@@ -419,10 +415,10 @@
           .start_ {
             text-align: start;
           }
-          .k_left{
+          .k_left {
             margin: 0px 15px 0 0;
           }
-          .k_right{
+          .k_right {
             margin: 0px 15px 0 0;
           }
           .kub {
@@ -438,29 +434,29 @@
             }
           }
         }
-  
-        .box_1 { 
-          flex-direction: row-reverse; 
+
+        .box_1 {
+          flex-direction: row-reverse;
         }
-  
+
         .box_2 {
-          flex-direction: row-reverse; 
+          flex-direction: row-reverse;
         }
         .box_3 {
-          flex-direction: row-reverse; 
+          flex-direction: row-reverse;
         }
-        .box_11 { 
+        .box_11 {
         }
-  
-        .box_22 { 
+
+        .box_22 {
         }
-        .box_33 { 
+        .box_33 {
         }
       }
     }
   }
 }
-@media screen and (max-width:576px){
+@media screen and (max-width: 576px) {
   .service_container {
     background: linear-gradient(
         170deg,
@@ -480,8 +476,7 @@
       justify-content: center;
       flex-direction: column;
       .name_ {
-        
-        color: var(--btn-bg);
+        color: var(--white);
         text-transform: uppercase;
         font-size: 18px;
       }
@@ -493,12 +488,12 @@
       }
       .moon {
         margin-top: 30px;
-        margin-bottom:inherit;
+        margin-bottom: inherit;
         .moon_kub {
           position: inherit;
           display: flex;
           align-items: center;
-          justify-content: space-between; 
+          justify-content: space-between;
           flex-direction: column;
           .moon_img {
             opacity: 0.8;
@@ -531,10 +526,10 @@
           .start_ {
             text-align: start;
           }
-          .k_left{
+          .k_left {
             margin: 0px 15px 0 0;
           }
-          .k_right{
+          .k_right {
             margin: 0px 15px 0 0;
           }
           .kub {
@@ -550,30 +545,30 @@
             }
           }
         }
-  
-        .box_1 { 
-          flex-direction: row-reverse; 
+
+        .box_1 {
+          flex-direction: row-reverse;
         }
-  
+
         .box_2 {
-          flex-direction: row-reverse; 
+          flex-direction: row-reverse;
         }
         .box_3 {
-          flex-direction: row-reverse; 
+          flex-direction: row-reverse;
         }
-        .box_11 { 
+        .box_11 {
         }
-  
-        .box_22 { 
+
+        .box_22 {
         }
-        .box_33 { 
+        .box_33 {
         }
       }
     }
   }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width: 450px) {
   .service_container {
     background: linear-gradient(
         170deg,
@@ -593,8 +588,7 @@
       justify-content: center;
       flex-direction: column;
       .name_ {
-        
-        color: var(--btn-bg);
+        color: var(--white);
         text-transform: uppercase;
         font-size: 13px;
       }
@@ -606,12 +600,12 @@
       }
       .moon {
         margin-top: 30px;
-        margin-bottom:inherit;
+        margin-bottom: inherit;
         .moon_kub {
           position: inherit;
           display: flex;
           align-items: center;
-          justify-content: space-between; 
+          justify-content: space-between;
           flex-direction: column;
           .moon_img {
             opacity: 0.8;
@@ -644,10 +638,10 @@
           .start_ {
             text-align: start;
           }
-          .k_left{
+          .k_left {
             margin: 0px 15px 0 0;
           }
-          .k_right{
+          .k_right {
             margin: 0px 15px 0 0;
           }
           .kub {
@@ -663,23 +657,23 @@
             }
           }
         }
-  
-        .box_1 { 
-          flex-direction: row-reverse; 
+
+        .box_1 {
+          flex-direction: row-reverse;
         }
-  
+
         .box_2 {
-          flex-direction: row-reverse; 
+          flex-direction: row-reverse;
         }
         .box_3 {
-          flex-direction: row-reverse; 
+          flex-direction: row-reverse;
         }
-        .box_11 { 
+        .box_11 {
         }
-  
-        .box_22 { 
+
+        .box_22 {
         }
-        .box_33 { 
+        .box_33 {
         }
       }
     }

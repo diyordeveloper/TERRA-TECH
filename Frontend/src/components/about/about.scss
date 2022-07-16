@@ -1,6 +1,6 @@
 :root {
   --white: #ffffff;
-  --btn-bg: #11469C;
+  --btn-bg: #11469c;
 }
 .about_container {
   background: linear-gradient(160deg, #2d519856, #00000077, #000000),
@@ -11,13 +11,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .block_ { 
+    .block_ {
       width: 45%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       .name_ {
-        color: var(--btn-bg);
+        color: var(--white);
         text-transform: uppercase;
         font-size: 20px;
       }
@@ -53,13 +53,13 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      .block_ { 
+      .block_ {
         width: 65%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         .name_ {
-          color: var(--btn-bg);
+          color: var(--white);
           text-transform: uppercase;
           font-size: 20px;
         }
@@ -94,14 +94,14 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      .block_ { 
+      .block_ {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         .name_ {
-          color: var(--btn-bg);
+          color: var(--white);
           text-transform: uppercase;
           font-size: 20px;
         }
@@ -136,14 +136,14 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      .block_ { 
+      .block_ {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         .name_ {
-          color: var(--btn-bg);
+          color: var(--white);
           text-transform: uppercase;
           font-size: 18px;
         }
@@ -178,14 +178,14 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      .block_ { 
+      .block_ {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         .name_ {
-          color: var(--btn-bg);
+          color: var(--white);
           text-transform: uppercase;
           font-size: 13px;
         }
@@ -199,7 +199,7 @@
           font-size: 12px;
           color: var(--white);
           margin-bottom: 30px;
-        } 
+        }
       }
       .about_img {
         display: block;
