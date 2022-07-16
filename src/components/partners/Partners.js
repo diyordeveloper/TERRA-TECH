@@ -19,7 +19,7 @@ import category_2 from "../../assets/img/category_2.png";
 import category_3 from "../../assets/img/category_3.png";
 import category_4 from "../../assets/img/category_4.png";
 import category_5 from "../../assets/img/category_5.png";
-import category_6 from "../../assets/img/category_6.png"; 
+import category_6 from "../../assets/img/category_6.png";
 import Aos from "aos";
 
 function Partners() {
@@ -31,10 +31,15 @@ function Partners() {
     <div className="partners_container height_" id="partners">
       <div className="container">
         <div className="content_ page_padding">
-          <span className="name_" data-aos="zoom-in-up"
-              data-aos-duration="700">{t("partners_page.link")}</span>
-          <span className="title_" data-aos="zoom-in-up"
-              data-aos-duration="900">{t("partners_page.title")}
+          <span className="name_" data-aos="zoom-in-up" data-aos-duration="700">
+            {t("partners_page.link")}
+          </span>
+          <span
+            className="title_"
+            data-aos="zoom-in-up"
+            data-aos-duration="900"
+          >
+            {t("partners_page.title")}
           </span>
 
           <div className="carousel_">
@@ -43,7 +48,7 @@ function Partners() {
                 // when window width is >= 640px
                 300: {
                   slidesPerView: 3,
-                }, 
+                },
                 800: {
                   slidesPerView: 4,
                 },
@@ -144,25 +149,17 @@ function Partners() {
               </SwiperSlide>
             </Swiper>
           </div>
-          <span className="titl" data-aos="zoom-in-up"
-              data-aos-duration="700">
-          {t("partners_page.partners.title")}
-          </span>
-          <div className="text_"data-aos="zoom-in-up"
-              data-aos-duration="900">
-            <span className="bady_">
-            {t("partners_page.partners.body1")}
-            </span>
-            <span className="bady_"data-aos="zoom-in-up"
-              data-aos-duration="900">
-            {t("partners_page.partners.body1")}
-            </span>
-          </div>
-         <div className="div_btn"> 
-        <a href='#' className="btn_bg_" data-aos="zoom-in-up"
-              data-aos-duration="900">{t("learn_more_btn")}</a> 
-         </div>
 
+          <div className="div_btn">
+            <a
+              href="#"
+              className="btn_bg_"
+              data-aos="zoom-in-up"
+              data-aos-duration="900"
+            >
+              {t("learn_more_btn")}
+            </a>
+          </div>
         </div>
       </div>
     </div>

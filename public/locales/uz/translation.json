@@ -83,21 +83,21 @@
     "title": "Qo’shimcha xizmatlar",
     "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy tariflar yaratish bilan harakat qilamiz.",
     "strategiya_ul_list": {
-      "1": "ADMIN PANELISIZ PORTFOLIO - 70-150 $",
-      "2": "ADMIN PANELI BILAN PORTFOLIO - 200$ DAN BOSHLAB",
-      "3": "INTERNET MAGAZIN - 500-600 $",
-      "4": "MOBIL ILOVALAR - 1000-5000$"
+      "1": "ADMIN PANELISIZ PORTFOLIO",
+      "2": "ADMIN PANELI BILAN PORTFOLIO",
+      "3": "INTERNET MAGAZIN",
+      "4": "MOBIL ILOVALAR"
     },
     "strategiya_card": {
-      "1": "START (SMM / TARGET)",
-      "2": "MIDDLE (SMM / TARGET / WEB-SAYT)",
-      "3": "PREMIUM (SMM / TARGET / WEB-SAYT / KONTEKST REKLAMA)",
-      "4": "PLATINUM (SMM / TARGET / WEB-SAYT / KONTEKST REKLAMA / MARKETING ANALIZ)"
+      "1": " SMM / TARGET",
+      "2": " SMM / TARGET / WEB-SAYT",
+      "3": " SMM / TARGET / WEB-SAYT / KONTEKST REKLAMA",
+      "4": " SMM / TARGET / WEB-SAYT / KONTEKST REKLAMA / MARKETING ANALIZ"
     }
   },
   "partners_page": {
     "link": "BIZNING HAMKORLIK",
-    "title": "Sayt test rejimida ishlamoqda !",
+    "title": "Bizning mijozlarimiz",
     "partners": {
       "title": "Biz sizning biznes maqsadingizga yordam berish uchun   harakat qilamiz.",
       "body1": "Biz sizning biznes maqsadingizga yordam berish olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz.",
@@ -131,7 +131,6 @@
       "5": "Bizning Tariflar",
       "6": "Bizning Hamkorlik",
       "7": "Aloqa"
-    },
-    "body": "Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish daromadingizni yahshilashga yordam beramiz.||Biz sizning biznes maqsadingizga yordam berish uchun Ijodiy strategiya yaratish bilan harakat qilamiz, sizning kontentingizni qiziqarli ko'rinishga olib keladigan xizmatlar orqali daromadingizni yahshilashga yordam beramiz."
+    }
   }
 }

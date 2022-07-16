@@ -18,7 +18,7 @@ function Strategiya() {
               data-aos="zoom-in-up"
               data-aos-duration="900"
             >
-              <span className="number_">500$</span>
+              <span className="number_">START </span>
               <span className="body_">
                 {t("strategiya_page.strategiya_card.1")}
               </span>
@@ -28,7 +28,7 @@ function Strategiya() {
               data-aos="zoom-in-up"
               data-aos-duration="900"
             >
-              <span className="number_">800$</span>
+              <span className="number_">MIDDLE </span>
               <span className="body_">
                 {t("strategiya_page.strategiya_card.2")}
               </span>
@@ -38,7 +38,7 @@ function Strategiya() {
               data-aos="zoom-in-up"
               data-aos-duration="900"
             >
-              <span className="number_">1000$</span>
+              <span className="number_">PREMIUM </span>
               <span className="body_">
                 {t("strategiya_page.strategiya_card.3")}
               </span>
@@ -48,7 +48,7 @@ function Strategiya() {
               data-aos="zoom-in-up"
               data-aos-duration="900"
             >
-              <span className="number_">1200$</span>
+              <span className="number_">PLATINUM </span>
               <span className="body_">
                 {t("strategiya_page.strategiya_card.4")}
               </span>
@@ -105,8 +105,13 @@ function Strategiya() {
                 </span>
               </li>
             </ul>
-            <button className="btn_bg_  db_btn" data-aos="zoom-in-left"
-          data-aos-duration="900">{t("learn_more_btn")}</button>
+            <button
+              className="btn_bg_  db_btn"
+              data-aos="zoom-in-left"
+              data-aos-duration="900"
+            >
+              {t("learn_more_btn")}
+            </button>
           </div>
         </div>
       </div>

@@ -1,0 +1,132 @@
+:root {
+  --white: #ffffff;
+  --btn-bg: #11469C;
+} 
+// @keyframes rotatelang {
+//   0% {
+//     transform: rotate(0deg);
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//   }
+// }
+.lang_{
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background: var(--btn-bg);
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  .lang_icon{
+      color:var(--white) ;
+      font-size: 32px ;
+      // animation: 3s rotatelang infinite;
+      transition: 0.1s;
+  }
+  &:active{
+    .lang_icon{
+      font-size: 35px ;
+    }
+  }
+  .lang_menu_{ 
+    overflow: hidden;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 40px;
+    .lang_btn.active_lang{
+      background: #000;
+      color: var(--btn-bg);
+    }
+  }
+  .lang_menu_.show_lang_menu_{
+    overflow: visible;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .lang_{
+    margin-right: 30px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: var(--btn-bg);
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    .lang_icon{
+        color:var(--white) ;
+        font-size: 30px ;  
+        transition: 0.1s;
+    }
+    &:active{
+      .lang_icon{
+        font-size: 32px ;
+      }
+    }
+    .lang_menu_{ 
+      overflow: hidden;
+      opacity: 0;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 35px;
+      .lang_btn.active_lang{
+        background: #000;
+        color: var(--btn-bg);
+      }
+    }
+    .lang_menu_.show_lang_menu_{
+      overflow: visible;
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 500px){
+  .lang_{
+    margin-right: 10px;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background: var(--btn-bg);
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    .lang_icon{
+        color:var(--white) ;
+        font-size: 28px ; 
+        transition: 0.1s;
+    }
+    &:active{
+      .lang_icon{
+        font-size: 30px ;
+      }
+    }
+    .lang_menu_{ 
+      overflow: hidden;
+      opacity: 0;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 32px;
+      .lang_btn.active_lang{
+        background: #000;
+        color: var(--btn-bg);
+      }
+    }
+    .lang_menu_.show_lang_menu_{
+      overflow: visible;
+      opacity: 1;
+    }
+  }
+}

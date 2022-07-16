@@ -1,0 +1,136 @@
+{
+  "app_title": "Title - Terra Tech",
+  "investitsiya_btn": "Contact",
+  "learn_more_btn": "Get information",
+  "submit": "SEND",
+  "toastify": {
+    "success": "Sent!",
+    "error": "Fill in the field!"
+  },
+  "navbar_links": {
+    "1": "ABOUT US",
+    "2": "Our Services",
+    "3": "Our Way"
+  },
+  "home_page": {
+    "title": "Build your business based on the ideal strategy!",
+    "body": "Create your dream business with us! All we need from you is trust, leave the rest to us! Our goal is only one, and that is to increase the development of your business! We aim to help you create a positive strategy to support your business goals and increase your revenue through services that make your content interesting!"
+  },
+  "about_page": {
+    "link": "ABOUT US",
+    "title": "TERRA TECH IT-COMPANY",
+    "body": "It is a company that brings new customers to your business and increases customer trust by using modern digital marketing tools. We will work on sustainable development of your business, competitiveness and attraction of potential customers. We aim to create a positive strategy to support your business goals and help you generate revenue through services that make your content interesting."
+  },
+  "service_page": {
+    "link": "Our Services",
+    "title": "Quality and speed are our motto",
+    "services": {
+      "1": {
+        "title": "SMM",
+        "body": "Marketing in social networks. Creating a flow of customers on Instagram and Facebook, attracting potential customers to your product or service, promoting your business on social networks."
+      },
+      "2": {
+        "title": "Website",
+        "body": "We develop websites for corporate clients and online magazines. These include: the number of languages; level of design complexity; mobile form of the site; product/service catalog."
+      },
+      "3": {
+        "title": "Mobile applications",
+        "body": "We will also create a modern mobile application for the development of your business and increase in sales flow"
+      },
+      "4": {
+        "title": "Personal brand",
+        "body": "The stronger your personal brand, the greater the trust in your product/service. We will help you with this."
+      },
+      "5": {
+        "title": "Targeting",
+        "body": "Target advertising attracts an audience interested in business, goods, services, age, interests, region - everything is advertised!"
+      },
+      "6": {
+        "title": "Contextual advertising",
+        "body": "Contextual advertising is one of the types of Internet advertising that is displayed in text form according to the user's query in the search engine. The selection and display of advertisements is based on the evaluation of their rating."
+      }
+    }
+  },
+  "special_page": {
+    "link": "Our Way",
+    "title": "The site is working in test mode!",
+    "body": "We strive to create a creative strategy to help you achieve your business goals.",
+    "special": {
+      "1": {
+        "time": "June 2021 -",
+        "title": "The site is in test mode!",
+        "body": "We strive to create a creative strategy to help you achieve your business goals."
+      },
+      "2": {
+        "time": "March 2021 -",
+        "title": "The site is in test mode!",
+        "body": "We strive to create a creative strategy to help you achieve your business goals."
+      },
+      "3": {
+        "time": "September 2021 -",
+        "title": "The site is in test mode!",
+        "body": "We strive to create a creative strategy to help you achieve your business goals."
+      },
+      "4": {
+        "time": "December 2021 -",
+        "title": "The site is in test mode!",
+        "body": "We strive to create a creative strategy to help you achieve your business goals."
+      }
+    }
+  },
+  "strategiya_page": {
+    "link": "Our Rates",
+    "title": "Additional services",
+    "body": "We strive to create creative rates to help you achieve your business goals.",
+    "strategiya_ul_list": {
+      "1": "PORTFOLIO WITHOUT ADMIN PANEL",
+      "2": "PORTFOLIO WITH ADMIN PANEL",
+      "3": "INTERNET STORE",
+      "4": "MOBILE APPLICATIONS"
+    },
+    "strategiya_card": {
+      "1": "SMM / TARGET",
+      "2": "SMM / TARGET / WEBSITE",
+      "3": "SMM / TARGET / WEBSITE / CONTEXTUAL ADVERTISING",
+      "4": "SMM / TARGET / WEBSITE / CONTEXTUAL ADVERTISING / MARKETING ANALYSIS"
+    }
+  },
+  "partners_page": {
+    "link": "OUR PARTNERSHIP",
+    "title": "Our customers",
+    "partners": {
+      "title": "We strive to help you achieve your business goals.",
+      "body1": "We help you improve your income through services that help your business goal.||We work with creative strategy to help your business goal, we help you improve your income through services that make your content look interesting.",
+      "body2": "We help you improve your income through services that help your business goal.||We work with creative strategy to help your business goal, we help you improve your income through services that make your content look interesting."
+    }
+  },
+  "contact_page": {
+    "link": "Contact",
+    "title": "DO YOU HAVE QUESTIONS?",
+    "contact": {
+      "form_placeholder": {
+        "1": "Your name",
+        "2": "Your phone number",
+        "3": "Your email address",
+        "4": "Share your thoughts"
+      },
+      "text": {
+        "title": "Contact us",
+        "job_time": "Working hours :",
+        "tel": "Phone number :",
+        "pochta": "Instagram page :"
+      }
+    }
+  },
+  "footer_page": {
+    "footer_links": {
+      "1": "Home Page",
+      "2": "ABOUT US",
+      "3": "Our Services",
+      "4": "Our Way",
+      "5": "Our Rates",
+      "6": "Our partnership",
+      "7": "Contact"
+    }
+  }
+}

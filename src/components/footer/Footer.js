@@ -20,8 +20,8 @@ function Footer() {
     <div className="footer_container ">
       <div className="container">
         <div className="content_ footer_padding">
-          <img src={logo} data-aos="zoom-in-up"
-              data-aos-duration="700" className={"logo_"} alt="Error!!!!" />
+          <a href="#"><img src={logo} data-aos="zoom-in-up"
+              data-aos-duration="700" className={"logo_"} alt="Error!!!!" /></a>
           <ul className="ul_">
             <li data-aos="zoom-in-up"
               data-aos-duration="900">
@@ -68,33 +68,31 @@ function Footer() {
                 {t("footer_page.footer_links.7")}
               </a>
             </li>
-          </ul>
-          <p className="body_"data-aos="zoom-in-up"
-              data-aos-duration="900">{t("footer_page.body")}</p>
+          </ul> 
           <div className="messenger_">
-            <div className="border_"  >
+            <a href="https://www.instagram.com/terra_techcomp" className="border_"  >
               <FacebookIcon className="icon_" />
-            </div>
-            <div className="border_"  >
+            </a>
+            <a href="https://www.instagram.com/terra_techcomp" className="border_"  >
               <TwitterIcon className="icon_" />
-            </div>
-            <div className="border_"  >
+            </a>
+            <a href="https://www.instagram.com/terra_techcomp" className="border_"  >
               <InstagramIcon className="icon_" />
-            </div>
-            <div className="border_"  >
+            </a>
+            <a href="https://www.instagram.com/terra_techcomp" className="border_"  >
               <LinkedInIcon className="icon_" />
-            </div>
-            <div className="border_"  >
+            </a>
+            <a href="https://www.instagram.com/terra_techcomp" className="border_"  >
               <TelegramIcon className="icon_" />
-            </div>
+            </a>
           </div>
         </div>
       </div>
       <hr className="hr_" />
       <div className="div_link">
-        <a href="#" className="footer_link">
+        <p className="footer_link">
           Copyright 2022 Terra Tech . All rights reserved.
-        </a>
+        </p>
       </div>
     </div>
   );
