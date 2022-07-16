@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import All from "./All";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import "aos/dist/aos.css";
+import "aos/dist/aos.css";
 
 
 function App() {

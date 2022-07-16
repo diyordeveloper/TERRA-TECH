@@ -4,8 +4,7 @@ import App from "./App";
 import "./i18n";
 import "bootstrap/dist/css/bootstrap.css";
 import "./assets/style/my.css";
-import "./assets/style/style.scss";
-import "./assets/style/language.scss";
+import "./assets/style/style.scss"; 
 import "./assets/style/lang.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
