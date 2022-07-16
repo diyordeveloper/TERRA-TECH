@@ -1,6 +1,6 @@
 :root {
   --white: #ffffff;
-  --btn-bg: #11469C;
+  --btn-bg: #11469c;
 }
 .dolorem_container {
   background: linear-gradient(
@@ -18,11 +18,11 @@
   .content_ {
     display: flex;
     justify-content: space-between;
-    .block_ { 
+    .block_ {
       width: 46%;
     }
     .btn_gr {
-      display: none ; 
+      display: none;
     }
     .b_card {
       display: flex;
@@ -117,11 +117,11 @@
       display: flex;
       justify-content: center;
       flex-direction: column-reverse;
-      .block_ { 
+      .block_ {
         width: 100%;
         text-align: center;
-        &:nth-child(1){
-            margin-top: 20px;
+        &:nth-child(1) {
+          margin-top: 20px;
         }
       }
       .db_btn {
@@ -146,8 +146,9 @@
             content: "";
             position: absolute;
             top: 0;
-            width: 70%;
-            height: 5px;
+          left: 14%;
+          width: 70%;
+          height: 5px;
             background: var(--btn-bg);
             border-radius: 0 0 10px 10px;
           }
@@ -161,16 +162,17 @@
           background: #100a33;
           display: flex;
           flex-direction: column;
-          padding: 35px;
-          border-radius: 30px;
+          padding: 15px;
+        border-radius: 15px;
+        text-align: center;
           .number_ {
             color: var(--btn-bg);
-            font-size: 28px;
+            font-size: 25px;
           }
           .body_ {
             color: #d1eaee;
             margin-top: 10px;
-            font-size: 15px;
+            font-size: 14px;
           }
         }
       }
@@ -211,221 +213,225 @@
   }
 }
 
-@media screen and (max-width:576px){
-    .dolorem_container {
-        background: linear-gradient(
-            180deg,
-            #01020b,
-            #01020b,
-            #0000007a,
-            #0203089e,
-            #04060ea0,
-            #04050fcf,
-            #000000
-          ),
-          url(../../assets/background/bg.jpg), no-repeat;
-        background-size: cover;
-        .content_ {
+@media screen and (max-width: 576px) {
+  .dolorem_container {
+    background: linear-gradient(
+        180deg,
+        #01020b,
+        #01020b,
+        #0000007a,
+        #0203089e,
+        #04060ea0,
+        #04050fcf,
+        #000000
+      ),
+      url(../../assets/background/bg.jpg), no-repeat;
+    background-size: cover;
+    .content_ {
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+      .block_ {
+        width: 100%;
+        text-align: center;
+        &:nth-child(1) {
+          margin-top: 10px;
+        }
+      }
+      .db_btn {
+        display: none;
+      }
+      .btn_gr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .dn_btn {
+          display: block !important;
+          margin-top: 40px;
+        }
+      }
+      .b_card {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .card_ {
+          position: relative;
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 14%;
+            width: 70%;
+            height: 5px;
+            background: var(--btn-bg);
+            border-radius: 0 0 10px 10px;
+          }
+          &:nth-child(1) {
+            margin-bottom: 30px;
+          }
+          &:nth-child(2) {
+            margin-bottom: 30px;
+          }
+          width: 48%;
+          background: #100a33;
           display: flex;
-          justify-content: center;
-          flex-direction: column-reverse;
-          .block_ { 
-            width: 100%;
-            text-align: center;
-            &:nth-child(1){
-                margin-top: 10px;
-            }
+          flex-direction: column;
+          padding: 15px;
+          border-radius: 15px;
+          text-align: center;
+          .number_ {
+            color: var(--btn-bg);
+            font-size: 25px;
           }
-          .db_btn {
-            display: none;
+          .body_ {
+            color: #d1eaee;
+            margin-top: 10px;
+            font-size: 14px;
           }
-          .btn_gr {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            .dn_btn {
-              display: block !important;
-              margin-top: 40px;
-            }
-          }
-          .b_card {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            .card_ {
-              position: relative;
-              &::before {
-                content: "";
-                position: absolute;
-                top: 0;
-                width: 75%;
-                height: 5px;
-                background: var(--btn-bg);
-                border-radius: 0 0 10px 10px;
-              }
-              &:nth-child(1) {
-                margin-bottom: 30px;
-              }
-              &:nth-child(2) {
-                margin-bottom: 30px;
-              }
-              width: 48%;
-              background: #100a33;
-              display: flex;
-              flex-direction: column;
-              padding: 25px;
-              border-radius: 30px;
-              .number_ {
-                color: var(--btn-bg);
-                font-size: 28px;
-              }
-              .body_ {
-                color: #d1eaee;
-                margin-top: 10px;
-                font-size: 15px;
-              }
-            }
-          }
-          .b_text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            .name_ {
+        }
+      }
+      .b_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .name_ {
+          color: var(--white);
+          text-transform: uppercase;
+          font-size: 20px;
+        }
+        .title_ {
+          font-size: 30px;
+          color: var(--white);
+          margin-top: 10px;
+        }
+        .body_ {
+          color: #d1eaee;
+          margin-top: 6px;
+          font-size: 13px;
+        }
+        .ul_ {
+          padding-left: 1rem;
+          margin: 20px 0 20px 0;
+          li {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: var(--btn-bg);
+
+            .span {
               color: var(--white);
-              text-transform: uppercase;
-              font-size: 20px;
-            }
-            .title_ {
-              font-size: 30px;
-              color: var(--white);
-              margin-top: 10px;
-            }
-            .body_ {
-              color: #d1eaee;
-              margin-top: 6px;
-              font-size: 13px;
-            }
-            .ul_ {
-              padding-left: 1rem;
-              margin: 20px 0 20px 0;
-              li {
-                margin-bottom: 10px;
-                font-size: 14px;
-                color: var(--btn-bg);
-    
-                .span {
-                  color: var(--white);
-                }
-              }
             }
           }
         }
       }
+    }
+  }
 }
 
-@media screen and (max-width:450px){
-    .dolorem_container {
-        background: linear-gradient(
-            180deg,
-            #01020b,
-            #01020b,
-            #0000007a,
-            #0203089e,
-            #04060ea0,
-            #04050fcf,
-            #000000
-          ),
-          url(../../assets/background/bg.jpg), no-repeat;
-        background-size: cover;
-        .content_ {
+@media screen and (max-width: 450px) {
+  .dolorem_container {
+    background: linear-gradient(
+        180deg,
+        #01020b,
+        #01020b,
+        #0000007a,
+        #0203089e,
+        #04060ea0,
+        #04050fcf,
+        #000000
+      ),
+      url(../../assets/background/bg.jpg), no-repeat;
+    background-size: cover;
+    .content_ {
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+      .block_ {
+        width: 100%;
+        text-align: center;
+        &:nth-child(1) {
+          margin-top: 10px;
+        }
+      }
+      .db_btn {
+        display: none;
+      }
+      .btn_gr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .dn_btn {
+          display: block !important;
+          margin-top: 10px;
+        }
+      }
+      .b_card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .card_ {
+          position: relative;
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 14%;
+            width: 70%;
+            height: 5px;
+            background: var(--btn-bg);
+            border-radius: 0 0 10px 10px;
+          }
+          margin-bottom: 30px;
+          width: 100%;
+          background: #100a33;
           display: flex;
-          justify-content: center;
-          flex-direction: column-reverse;
-          .block_ { 
-            width: 100%;
-            text-align: center;
-            &:nth-child(1){
-                margin-top: 10px;
-            }
+          flex-direction: column;
+          padding: 15px;
+          border-radius: 15px;
+          text-align: center;
+          .number_ {
+            color: var(--btn-bg);
+            font-size: 22px;
           }
-          .db_btn {
-            display: none;
+          .body_ {
+            color: #d1eaee;
+            margin-top: 8px;
+            font-size: 12px;
           }
-          .btn_gr {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            .dn_btn {
-              display: block !important;
-              margin-top: 10px;
-            }
-          }
-          .b_card {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            .card_ {
-              position: relative;
-              &::before {
-                content: "";
-                position: absolute;
-                top: 0;
-                width: 90%;
-                height: 3px;
-                background: var(--btn-bg);
-                border-radius: 0 0 10px 10px;
-              } 
-            margin-bottom: 30px;
-              width: 100%;
-              background: #100a33;
-              display: flex;
-              flex-direction: column;
-              padding: 20px;
-              border-radius: 30px;
-              .number_ {
-                color: var(--btn-bg);
-                font-size: 24px;
-              }
-              .body_ {
-                color: #d1eaee;
-                margin-top: 8px;
-                font-size: 12px;
-              }
-            }
-          }
-          .b_text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            .name_ {
+        }
+      }
+      .b_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .name_ {
+          color: var(--white);
+          text-transform: uppercase;
+          font-size: 13px;
+        }
+        .title_ {
+          font-size: 22px;
+          color: var(--white);
+          margin-top: 10px;
+        }
+        .body_ {
+          color: #d1eaee;
+          margin-top: 6px;
+          font-size: 12px;
+        }
+        .ul_ {
+          padding-left: 1rem;
+          margin: 20px 0 20px 0;
+          li {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: var(--btn-bg);
+
+            .span {
               color: var(--white);
-              text-transform: uppercase;
-              font-size: 13px;
-            }
-            .title_ {
-              font-size: 22px;
-              color: var(--white);
-              margin-top: 10px;
-            }
-            .body_ {
-              color: #d1eaee;
-              margin-top: 6px;
-              font-size: 12px;
-            }
-            .ul_ {
-              padding-left: 1rem;
-              margin: 20px 0 20px 0;
-              li {
-                margin-bottom: 10px;
-                font-size: 14px;
-                color: var(--btn-bg);
-    
-                .span {
-                  color: var(--white);
-                }
-              }
             }
           }
         }
       }
+    }
+  }
 }

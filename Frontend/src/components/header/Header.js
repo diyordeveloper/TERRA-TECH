@@ -4,12 +4,12 @@ import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { useTranslation } from "react-i18next";
-import "./header.scss";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 import i18next from "i18next";
 import cookie from "js-cookie";
 import LanguageIcon from "@mui/icons-material/Language";
+import "./header.scss";
 
 const language = [
   {

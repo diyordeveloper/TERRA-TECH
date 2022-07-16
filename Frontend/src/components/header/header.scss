@@ -23,8 +23,9 @@
     align-items: center;
     padding-top: 20px;
     li {
-      padding: 0 40px;
+      padding: 0 30px;
       .link_ {
+        font-size: 15px;
         position: relative;
         color: #ffffff;
         &::before {
@@ -132,7 +133,7 @@
       display: flex;
       align-items: center;
       li {
-        padding: 0 20px;
+        padding: 0 12px;
         .link_ {
           position: relative;
           font-size: 14px;
