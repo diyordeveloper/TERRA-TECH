@@ -72,24 +72,19 @@ function Footer() {
           <p className="body_"data-aos="zoom-in-up"
               data-aos-duration="900">{t("footer_page.body")}</p>
           <div className="messenger_">
-            <div className="border_" data-aos="zoom-in-up"
-              data-aos-duration="700">
+            <div className="border_"  >
               <FacebookIcon className="icon_" />
             </div>
-            <div className="border_" data-aos="zoom-in-up"
-              data-aos-duration="800">
+            <div className="border_"  >
               <TwitterIcon className="icon_" />
             </div>
-            <div className="border_" data-aos="zoom-in-up"
-              data-aos-duration="850">
+            <div className="border_"  >
               <InstagramIcon className="icon_" />
             </div>
-            <div className="border_" data-aos="zoom-in-up"
-              data-aos-duration="900">
+            <div className="border_"  >
               <LinkedInIcon className="icon_" />
             </div>
-            <div className="border_" data-aos="zoom-in-up"
-              data-aos-duration="1000">
+            <div className="border_"  >
               <TelegramIcon className="icon_" />
             </div>
           </div>

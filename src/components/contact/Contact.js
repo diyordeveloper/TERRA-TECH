@@ -105,7 +105,7 @@ function Contact() {
                   {t("contact_page.contact.text.pochta")}
                 </span>
                 <a href="https://www.instagram.com/terra_techcomp" className="email_time">
-                https://www.instagram.com/terra_techcomp 
+                https:// <br className="br_" /> www.instagram.com <br  className="br_"/> /terra_techcomp
                 </a>
               </div>
             </div>

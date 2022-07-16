@@ -2,8 +2,11 @@
   --white: #ffffff;
   --btn-bg: #11469C;
 } 
+ 
 .wrapper {
-  width: 100%; 
+  width: 100%;
+  // scroll-snap-type: y mandatory;
+  // overflow-y: inherit;
   height: 100vh;
 }
 .one_list_height {
