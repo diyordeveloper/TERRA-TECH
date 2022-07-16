@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import BtnBg from "../btn/BtnBg";
+import React, { useEffect } from "react"; 
 import "./strategiya.scss";
 import { useTranslation } from "react-i18next";
 import Aos from "aos";

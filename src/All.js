@@ -1,5 +1,5 @@
 import React from "react";
-import Home_1 from "./components/home_1/Home_1";
+import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Service from "./components/service/Service";
 import Special from "./components/special/Special";
@@ -13,7 +13,7 @@ function All() {
   return (
     <>
       <div className="wrapper">
-        <Home_1 />
+        <Home />
         <About />
         <Service />
         <Special />

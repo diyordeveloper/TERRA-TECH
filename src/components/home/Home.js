@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos"; 
 import Header from "../header/Header";
-import "./home_1.scss";
+import "./home.scss";
 
 import { useTranslation } from "react-i18next";
 function Home_1() {
