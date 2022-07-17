@@ -13,13 +13,9 @@ import "./partners.scss";
 import "./swipper.scss";
 
 // import required modules
-
-import category_1 from "../../assets/img/category_1.png";
-import category_2 from "../../assets/img/category_2.png";
-import category_3 from "../../assets/img/category_3.png";
-import category_4 from "../../assets/img/category_4.png";
-import category_5 from "../../assets/img/category_5.png";
-import category_6 from "../../assets/img/category_6.png";
+ 
+import logo1 from "../../assets/img/Logo Ashurov.png";
+import logo2 from "../../assets/img/Ned Vij.png";
 import Aos from "aos";
 
 function Partners() {
@@ -68,7 +64,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={category_1}
+                    src={logo1}
                     className={"category_img"}
                     alt="Error!!!"
                   />
@@ -77,7 +73,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={category_2}
+                    src={logo2}
                     className={"category_img"}
                     alt="Error!!!"
                   />
@@ -86,7 +82,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={category_3}
+                    src={logo1}
                     className={"category_img"}
                     alt="Error!!!"
                   />
@@ -95,7 +91,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={category_4}
+                    src={logo2}
                     className={"category_img"}
                     alt="Error!!!"
                   />
@@ -104,7 +100,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={category_5}
+                    src={logo1}
                     className={"category_img"}
                     alt="Error!!!"
                   />
@@ -113,7 +109,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={category_5}
+                    src={logo2}
                     className={"category_img"}
                     alt="Error!!!"
                   />
@@ -122,7 +118,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={category_6}
+                    src={logo1}
                     className={"category_img"}
                     alt="Error!!!"
                   />
@@ -132,7 +128,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={category_4}
+                    src={logo2}
                     className={"category_img"}
                     alt="Error!!!"
                   />
@@ -141,7 +137,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={category_5}
+                    src={logo1}
                     className={"category_img"}
                     alt="Error!!!"
                   />

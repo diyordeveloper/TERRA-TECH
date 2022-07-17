@@ -32,10 +32,11 @@ function Contact() {
           console.log(response.status);
         });
       toast.success(t("toastify.success"));
-      e.target[0].value = "";
-      e.target[1].value = "";
-      e.target[2].value = "";
-      e.target[3].value = "";
+      console.log(data);
+      e.target[0].value = "";                                                                  
+      e.target[1].value = "";                                                                  
+      e.target[2].value = "";                                                                  
+      e.target[3].value = "";                                                                  
     }
   }
   return (
