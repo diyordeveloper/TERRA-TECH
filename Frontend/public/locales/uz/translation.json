@@ -109,10 +109,10 @@
     "title": "Biz bilan bog'laning",
     "contact": {
       "form_placeholder": {
-        "1": "Ismingiz",
+        "1": "Ism Familiyangiz",
         "2": "Telefon raqamingiz",
-        "3": "Elektron pochtangiz",
-        "4": "Fikrlaringiz bilan bo’lishing"
+        "3": "Faoliyatingiz turi",
+        "4": "Qaysi xizmatimizdan foydalanmoqchisiz ?"
       },
       "text": {
         "title": "Biz bilan bog'laning",

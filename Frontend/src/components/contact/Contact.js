@@ -16,20 +16,26 @@ function Contact() {
     const email = e.target[2].value;
     const textarea = e.target[3].value;
     let data = {
-      "full_name":name,
-      "phone":phone,
-      "ball":100,
-      "mail":email,
-      "activity_type":"test",
-      "interesting_service":textarea
-    }
-    if (name === "" , phone === "" , email === "" , textarea === "") {
+      full_name: name,
+      phone: phone,
+      ball: 100,
+      mail: email,
+      activity_type: "test",
+      interesting_service: textarea,
+    };
+    if ((name === "", phone === "", email === "", textarea === "")) {
       toast.error(t("toastify.error"));
     } else {
-      axios.post("http://localhost:8000/google_sheet/create_google_cheet",data).then(response => {
-        console.log(response.status)
-      })
+      axios
+        .post("http://localhost:8000/google_sheet/create_google_cheet", data)
+        .then((response) => {
+          console.log(response.status);
+        });
       toast.success(t("toastify.success"));
+      e.target[0].value = "";
+      e.target[1].value = "";
+      e.target[2].value = "";
+      e.target[3].value = "";
     }
   }
   return (
@@ -68,8 +74,8 @@ function Contact() {
                 />
 
                 <input
-                  type="email"
-                  name="emil"
+                  type="text"
+                  name="text"
                   placeholder={t("contact_page.contact.form_placeholder.3")}
                   className="input_ input_email"
                   data-aos="zoom-in-right"
