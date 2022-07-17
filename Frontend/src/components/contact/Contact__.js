@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import { toast } from "react-toastify";
 import "./contact.scss";
 import Aos from "aos";
-import axios from "axios";
 function Contact() {
   useEffect(() => {
     Aos.init();
@@ -15,20 +14,9 @@ function Contact() {
     const phone = e.target[1].value;
     const email = e.target[2].value;
     const textarea = e.target[3].value;
-    let data = {
-      "full_name":name,
-      "phone":phone,
-      "ball":100,
-      "mail":email,
-      "activity_type":"test",
-      "interesting_service":textarea
-    }
-    if (name === "" , phone === "" , email === "" , textarea === "") {
+    if (name === "" && phone === "" && email === "" && textarea === "") {
       toast.error(t("toastify.error"));
     } else {
-      axios.post("http://localhost:8000/google_sheet/create_google_cheet",data).then(response => {
-        console.log(response.status)
-      })
       toast.success(t("toastify.success"));
     }
   }
@@ -95,13 +83,13 @@ function Contact() {
               </div>
             </form>
             <div className="context_">
-              {/* <p
+              <p
                 className="title_2"
                 data-aos="zoom-in-up"
                 data-aos-duration="700"
               >
                 {t("contact_page.contact.text.title")}
-              </p> */}
+              </p>
               <div
                 className="box_"
                 data-aos="zoom-in-up"

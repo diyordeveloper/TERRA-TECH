@@ -1,8 +1,14 @@
 import React, { useEffect } from "react";
 import moon_ from "../../assets/background/moon_1.png";
-import bitcoin_1 from "../../assets/logo_svg/bitcoin_1.png";
-import bitcoin_2 from "../../assets/logo_svg/bitcoin_2.png";
-import bitcoin_3 from "../../assets/logo_svg/bitcoin_3.png"; 
+
+import smm from "../../assets/logo_svg/smm.png"; 
+import website from "../../assets/logo_svg/website.png"; 
+import mobile from "../../assets/logo_svg/mobile.png"; 
+import brand from "../../assets/logo_svg/brand.png"; 
+import target from "../../assets/logo_svg/target.png"; 
+import contextual from "../../assets/logo_svg/contextual.png"; 
+
+
 import AOS from "aos";
 import "./service.scss";
 
@@ -33,7 +39,7 @@ function Service() {
                   </span>
                 </div>
                 <div className="kub k_left">
-                  <img src={bitcoin_1} className={"bitcoin"} alt="Error!!!" />
+                  <img src={smm} className={"bitcoin"} alt="Error!!!" />
                 </div>
               </div>
               <div className="box box_2" data-aos="zoom-in-right" data-aos-duration="900">
@@ -44,7 +50,7 @@ function Service() {
                   </span>
                 </div>
                 <div className="kub k_left">
-                  <img src={bitcoin_2} className={"bitcoin"} alt="Error!!!" />
+                  <img src={website} className={"bitcoin"} alt="Error!!!" />
                 </div>
               </div>
               <div className="box box_3" data-aos="zoom-in-right" data-aos-duration="900"> 
@@ -55,12 +61,12 @@ function Service() {
                   </span>
                 </div>
                 <div className="kub k_left">
-                  <img src={bitcoin_3} className={"bitcoin"} alt="Error!!!" />
+                  <img src={mobile} className={"bitcoin"} alt="Error!!!" />
                 </div>
               </div>
               <div className="box box_11" data-aos="zoom-in-left" data-aos-duration="900">
                 <div className="kub k_right">
-                  <img src={bitcoin_1} className={"bitcoin"} alt="Error!!!" />
+                  <img src={brand} className={"bitcoin"} alt="Error!!!" />
                 </div>
                 <div className="text_ start_  ">
                   <span className="titl">
@@ -73,7 +79,7 @@ function Service() {
               </div>
               <div className="box box_22"data-aos="zoom-in-left" data-aos-duration="900">
                 <div className="kub k_right">
-                  <img src={bitcoin_2} className={"bitcoin"} alt="Error!!!" />
+                  <img src={target} className={"bitcoin"} alt="Error!!!" />
                 </div>
                 <div className="text_ start_  ">
                   <span className="titl">{t("service_page.services.5.title")}</span>
@@ -84,7 +90,7 @@ function Service() {
               </div>
               <div className="box box_33"data-aos="zoom-in-left" data-aos-duration="900">
                 <div className="kub k_right">
-                  <img src={bitcoin_3} className={"bitcoin"} alt="Error!!!" />
+                  <img src={contextual} className={"bitcoin"} alt="Error!!!" />
                 </div>
                 <div className="text_ start_  ">
                   <span className="titl">{t("service_page.services.6.title")}</span>
