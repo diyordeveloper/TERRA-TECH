@@ -1,6 +1,7 @@
 {
   "name": "my-clone",
   "version": "0.1.0",
+  "homepage": "http://terratech.uz",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
