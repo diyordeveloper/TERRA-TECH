@@ -16,6 +16,9 @@ import "./swipper.scss";
  
 import logo1 from "../../assets/img/Logo Ashurov.png";
 import logo2 from "../../assets/img/Ned Vij.png";
+import logo3 from "../../assets/img/teachMe.png";
+import logo4 from "../../assets/img/universitY.png";
+import logo5 from "../../assets/img/WeHelp.png";
 import Aos from "aos";
 
 function Partners() {
@@ -82,7 +85,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={logo1}
+                    src={logo3}
                     className={"category_img"}
                     alt="Error!!!"
                   />
@@ -91,7 +94,7 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={logo2}
+                    src={logo4}
                     className={"category_img"}
                     alt="Error!!!"
                   />
@@ -100,49 +103,12 @@ function Partners() {
               <SwiperSlide>
                 <div className="box_">
                   <img
-                    src={logo1}
+                    src={logo5}
                     className={"category_img"}
                     alt="Error!!!"
                   />
                 </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="box_">
-                  <img
-                    src={logo2}
-                    className={"category_img"}
-                    alt="Error!!!"
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="box_">
-                  <img
-                    src={logo1}
-                    className={"category_img"}
-                    alt="Error!!!"
-                  />
-                </div>
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <div className="box_">
-                  <img
-                    src={logo2}
-                    className={"category_img"}
-                    alt="Error!!!"
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="box_">
-                  <img
-                    src={logo1}
-                    className={"category_img"}
-                    alt="Error!!!"
-                  />
-                </div>
-              </SwiperSlide>
+              </SwiperSlide> 
             </Swiper>
           </div>
 
