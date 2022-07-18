@@ -16,7 +16,7 @@ function All() {
         <Home />
         <About />
         <Service />
-        <Special />
+        {/* <Special /> */}
         <SpaceX />
         <Strategiya />
         <Partners />
