@@ -12,18 +12,18 @@ function Contact() {
   function OnSubmitForm(e) {
     e.preventDefault();
     const name = e.target[0].value;
-    const phone = e.target[1].value;
+    const telefon = e.target[1].value;
     const email = e.target[2].value;
     const textarea = e.target[3].value;
+    
     let data = {
-      full_name: name,
-      phone: phone,
-      ball: 100,
-      mail: email,
-      activity_type: "test",
-      interesting_service: textarea,
-    };
-    if ((name === "", phone === "", email === "", textarea === "")) {
+      full_name:name,
+      phone:telefon, 
+      bussines_type:email,
+      interesting_service:textarea
+    }
+    ;
+    if ((name === "", telefon === "", email === "", textarea === "")) {
       toast.error(t("toastify.error"));
     } else {
       axios
@@ -66,7 +66,7 @@ function Contact() {
                   data-aos-duration="900"
                 />
                 <input
-                  type="tel"
+                  type="number"
                   name="phone"
                   placeholder={t("contact_page.contact.form_placeholder.2")}
                   className="input_ input_phone"
